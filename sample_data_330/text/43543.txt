@@ -1,0 +1,9 @@
+id: 43543
+gender: Men
+masterCategory: Apparel
+sub: Topwear
+articleType: Shirts
+baseColour: Lavender
+season: Summer
+usage: Casual
+productDisplayName: Scullers Men Checked Lavender Shirt

@@ -1,0 +1,9 @@
+id: 21137
+gender: Women
+masterCategory: Apparel
+sub: Topwear
+articleType: Sweaters
+baseColour: Grey
+season: Fall
+usage: Casual
+productDisplayName: s.Oliver Women Stripes Grey Sweater

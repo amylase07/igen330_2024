@@ -1,0 +1,9 @@
+id: 27006
+gender: Women
+masterCategory: Apparel
+sub: Bottomwear
+articleType: Jeans
+baseColour: Navy Blue
+season: Summer
+usage: Casual
+productDisplayName: Jealous 21 Women Washed Navy Blue Jeggings

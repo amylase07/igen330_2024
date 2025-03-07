@@ -1,0 +1,9 @@
+id: 40100
+gender: Men
+masterCategory: Apparel
+sub: Topwear
+articleType: Tshirts
+baseColour: Orange
+season: Summer
+usage: Casual
+productDisplayName: ADIDAS Men Orange T-shirt

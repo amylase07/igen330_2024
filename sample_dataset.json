@@ -1,0 +1,80 @@
+[
+    {
+        "image": "13233.jpg",
+        "text": "Palm Tree Kids Boys Printed Orange Tshirts",
+        "attributes": {
+            "type": "Tshirts",
+            "color": "Orange",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "40100.jpg",
+        "text": "ADIDAS Men Orange T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "color": "Orange",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "10670.jpg",
+        "text": "Doodle Boy Stop global warming Black Tshirts",
+        "attributes": {
+            "type": "Tshirts",
+            "color": "Black",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "27006.jpg",
+        "text": "Jealous 21 Women Washed Navy Blue Jeggings",
+        "attributes": {
+            "type": "Jeans",
+            "color": "Navy Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "21137.jpg",
+        "text": "s.Oliver Women Stripes Grey Sweater",
+        "attributes": {
+            "type": "Sweaters",
+            "color": "Grey",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "43543.jpg",
+        "text": "Scullers Men Checked Lavender Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "color": "Lavender",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    }
+]

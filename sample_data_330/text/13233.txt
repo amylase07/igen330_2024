@@ -1,0 +1,9 @@
+id: 13233
+gender: Men
+masterCategory: Apparel
+sub: Topwear
+articleType: Tshirts
+baseColour: Orange
+season: Fall
+usage: Casual
+productDisplayName: Palm Tree Kids Boys Printed Orange Tshirts
