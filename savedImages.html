@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Saved Images</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Saved Images</h1>
+        <div id="saved-images-container"></div>
+        <button onclick="location.href='index.html'">Back to Home</button>
+    </div>
+    <script>
+        // Load images from local storage
+        const savedImages = JSON.parse(localStorage.getItem('savedImages')) || [];
+        const container = document.getElementById('saved-images-container');
+        savedImages.forEach(src => {
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = 'Saved Image';
+            img.style.width = '200px';
+            container.appendChild(img);
+        });
+    </script>
+</body>
+</html>
