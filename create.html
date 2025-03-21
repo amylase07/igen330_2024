@@ -1,27 +1,11 @@
-<!-- code from march 7 -->
 <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Create Outfits</title>
-</head>
-<body>
-    <div class="container">
-        <h1>Create Outfits</h1>
-        <button onclick="location.href='index.html'">Back to Home</button>
-    </div>
-</body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" defer></script> <!-- Link to the JS file -->
+    <script src="js/attributes.js"></script>
+    <script src="js/script.js" defer></script>
     <title>Create Outfits</title>
 </head>
 <body>
@@ -53,6 +37,61 @@
             <div class="carousel-inner">
                 <img id="carouselImage" src="" alt="Outfit" />
                 <br />
+                <div id="attributes-box"></div>
+                <button id="left-arrow" onclick="prevImage()" disabled>◀</button>
+                <button id="right-arrow" onclick="nextImage()">▶</button>
+            </div>
+            <div id="buttons"></div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/attributes.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Create Outfits</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Outfits</h1>
+        <button onclick="location.href='index.html'">Back to Home</button>
+
+        <div id="weather"></div>
+        <div id="datetime"></div>
+
+        <h2>Please select occasion to create outfits:</h2>
+        <form id="occasionForm">
+            <label>
+                <input type="radio" name="occasion" value="formal"> Formal
+            </label>
+            <label>
+                <input type="radio" name="occasion" value="social"> Social
+            </label>
+            <label>
+                <input type="radio" name="occasion" value="casual"> Casual
+            </label>
+            <label>
+                <input type="radio" name="occasion" value="sporty"> Sporty
+                <!-- onchange="checkSelection()
+onchange="checkSelection()
+onchange="checkSelection()
+onchange="checkSelection() -->
+            </label>
+            <button type="button" id="create-outfit-button" onclick="createOutfits()" disabled>Create outfits for this occasion</button>
+        </form>
+
+        <div id="carousel" class="carousel" style="display: none;">
+            <div class="carousel-inner">
+                <img id="carouselImage" src="" alt="Outfit" />
+                <br />
+                <div id="attributes-box"></div>
                 <button id="left-arrow" onclick="prevImage()" disabled>◀</button>
                 <button id="right-arrow" onclick="nextImage()">▶</button>
             </div>
