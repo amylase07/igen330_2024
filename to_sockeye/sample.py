@@ -14,45 +14,28 @@ print(f"Output directory created: {output_dir}")
 # Load the pre-trained LLaVA model
 model_name = "liuhaotian/llava-v1.5-7b"
 processor = AutoTokenizer.from_pretrained(model_name, use_fast=False)
-image_processor = CLIPImageProcessor.from_pretrained(
-    "openai/clip-vit-base-patch32",
-    size={"height": 336, "width": 336},  # Set the expected image size
-    do_rescale=False  # Disable rescaling in the processor
-)
-
+image_processor = CLIPImageProcessor.from_pretrained("openai/clip-vit-base-patch32")
+model = LlavaForConditionalGeneration.from_pretrained(model_name)
 
 # Load dataset
 with open("dataset.json", "r") as f:
     dataset = json.load(f)
 
-# Image folder
-img_folder = "/arc/project/st-mponga1-1/amybchoi/IGEN330_DATA/images_folder"
-
 # Define image transformations
 transform = Compose([
-    Resize((336, 336)),  # Resize to CLIP's expected input size (336x336)
+    Resize((224, 224)),  # Resize to CLIP's expected input size
     ToTensor(),           # Convert to tensor
 ])
 
 def preprocess_data(example):
     # Load and process the image
-    image_file = example["image"]
-    image_path = os.path.join(img_folder, image_file)
+    image_path = example["image"]
     image = Image.open(image_path).convert("RGB")
-    print(f"Original image size: {image.size}")  # Debug: Check original size
     image = transform(image)  # Apply transformations
-    print(f"Resized image size: {image.shape}")  # Debug: Check resized size
     image_inputs = image_processor(image, return_tensors="pt")
-    print(f"Processed image size: {image_inputs['pixel_values'].shape}")  # Debug: Check final size
 
-    # Process text with padding and truncation
-    text_inputs = processor(
-        example["text"],
-        padding="max_length",  # Ensure padding to max_length
-        truncation=True,       # Ensure truncation to max_length
-        max_length=128,        # Set max_length
-        return_tensors="pt"
-    )
+    # Process text
+    text_inputs = processor(example["text"], return_tensors="pt")
 
     # Combine everything
     inputs = {
@@ -61,7 +44,7 @@ def preprocess_data(example):
         "attention_mask": text_inputs["attention_mask"].squeeze(0),
         "labels": text_inputs["input_ids"].squeeze(0)
     }
-
+    
     return inputs
 
 class ClothingDataset(Dataset):
@@ -74,11 +57,7 @@ class ClothingDataset(Dataset):
     def __getitem__(self, idx):
         return preprocess_data(self.dataset[idx])
 
-train_dataset = ClothingDataset(dataset)  # Use a smaller dataset for testing
-
-print("Dataset loaded.")
-
-model = LlavaForConditionalGeneration.from_pretrained(model_name)
+train_dataset = ClothingDataset(dataset[:10])  # Use a smaller dataset for testing
 
 # Training setup
 training_args = TrainingArguments(

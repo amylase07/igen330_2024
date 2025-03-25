@@ -1,0 +1,2277 @@
+[
+    {
+        "text_file": "3537.txt",
+        "image_file": "3537.jpg",
+        "text": "id: 3537\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Women's Bloody Cool Black T-shirt\n"
+    },
+    {
+        "text_file": "10674.txt",
+        "image_file": "10674.jpg",
+        "text": "id: 10674\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Doodle Girl Princess White Tops\n"
+    },
+    {
+        "text_file": "14116.txt",
+        "image_file": "14116.jpg",
+        "text": "id: 14116\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Flying Machine Men Blue Jeans\n"
+    },
+    {
+        "text_file": "27629.txt",
+        "image_file": "27629.jpg",
+        "text": "id: 27629\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Brown\nseason: Summer\nusage: Casual\nproductDisplayName: Scullers Men Check Brown Shorts\n"
+    },
+    {
+        "text_file": "4307.txt",
+        "image_file": "4307.jpg",
+        "text": "id: 4307\ngender: Unisex\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Tantra Kid's Unisex The Matrix Green Kidswear\n"
+    },
+    {
+        "text_file": "9464.txt",
+        "image_file": "9464.jpg",
+        "text": "id: 9464\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Formal\nproductDisplayName: John Miller Men  White Shirt\n"
+    },
+    {
+        "text_file": "20251.txt",
+        "image_file": "20251.jpg",
+        "text": "id: 20251\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbasecolour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Heavy Grey Tshirt\n"
+    },
+    {
+        "text_file": "26466.txt",
+        "image_file": "26466.jpg",
+        "text": "id: 26466\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Story Graphic Green T-shirt\n"
+    },
+    {
+        "text_file": "43056.txt",
+        "image_file": "43056.jpg",
+        "text": "id: 43056\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Black Speed Cricket T-shirt\n"
+    },
+    {
+        "text_file": "21589.txt",
+        "image_file": "21589.jpg",
+        "text": "id: 21589\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Swimwear\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Nabaiji Women Solid Black Swimsuit\n"
+    },
+    {
+        "text_file": "20788.txt",
+        "image_file": "20788.jpg",
+        "text": "id: 20788\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: Maroon\nseason: Fall\nusage: Casual\nproductDisplayName: Genesis Men Solid Maroon Sweater\n"
+    },
+    {
+        "text_file": "13285.txt",
+        "image_file": "13285.jpg",
+        "text": "id: 13285\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Gini and Jony Kids Boys Solid Black Shorts\n"
+    },
+    {
+        "text_file": "2680.txt",
+        "image_file": "2680.jpg",
+        "text": "id: 2680\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Inkfruit Men's Indian Rule Blue T-shirt\n"
+    },
+    {
+        "text_file": "40142.txt",
+        "image_file": "40142.jpg",
+        "text": "id: 40142\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Core Green T-shirt\n"
+    },
+    {
+        "text_file": "36251.txt",
+        "image_file": "36251.jpg",
+        "text": "id: 36251\ngender: Men\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Night suits\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: SDL by Sweet Dreams Men Grey & Navy Blue Pyjama Set\n"
+    },
+    {
+        "text_file": "10029.txt",
+        "image_file": "10029.jpg",
+        "text": "id: 10029\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Women As Script Mas Navy Blue Sweatshirts\n"
+    },
+    {
+        "text_file": "13346.txt",
+        "image_file": "13346.jpg",
+        "text": "id: 13346\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Women Washed Blue Jeans\n"
+    },
+    {
+        "text_file": "10054.txt",
+        "image_file": "10054.jpg",
+        "text": "id: 10054\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Sports\nproductDisplayName: Reebok Kids Kkr Boy's Premium Blue Jerseys\n"
+    },
+    {
+        "text_file": "18886.txt",
+        "image_file": "18886.jpg",
+        "text": "id: 18886\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Arrow Woman Simona Purple Shirt\n"
+    },
+    {
+        "text_file": "57434.txt",
+        "image_file": "57434.jpg",
+        "text": "id: 57434\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Angry Birds Women Blue T-shirt\n"
+    },
+    {
+        "text_file": "3429.txt",
+        "image_file": "3429.jpg",
+        "text": "id: 3429\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men's If You Don't Like Black T-shirt\n"
+    },
+    {
+        "text_file": "11018.txt",
+        "image_file": "11018.jpg",
+        "text": "id: 11018\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Women Check Red Shirt\n"
+    },
+    {
+        "text_file": "43520.txt",
+        "image_file": "43520.jpg",
+        "text": "id: 43520\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Skirts\nbaseColour: Navy Blue\nseason: Summer\nusage: Formal\nproductDisplayName: French Connection Women Navy Blue Skirt\n"
+    },
+    {
+        "text_file": "20244.txt",
+        "image_file": "20244.jpg",
+        "text": "id: 20244\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Peach\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Women Printed Peach T-shirt\n"
+    },
+    {
+        "text_file": "32645.txt",
+        "image_file": "32645.jpg",
+        "text": "id: 32645\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Navy Blue\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Knit Navy Blue Track Pants\n"
+    },
+    {
+        "text_file": "13416.txt",
+        "image_file": "13416.jpg",
+        "text": "id: 13416\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Check Pink Shirts\n"
+    },
+    {
+        "text_file": "28470.txt",
+        "image_file": "28470.jpg",
+        "text": "id: 28470\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Magenta\nseason: Summer\nusage: Casual\nproductDisplayName: Urban Yoga Women Printed Magenta Top\n"
+    },
+    {
+        "text_file": "28629.txt",
+        "image_file": "28629.jpg",
+        "text": "id: 28629\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Sports Black Jersey\n"
+    },
+    {
+        "text_file": "22343.txt",
+        "image_file": "22343.jpg",
+        "text": "id: 22343\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: John Players Men Printed Navy Blue T-Shirt\n"
+    },
+    {
+        "text_file": "55803.txt",
+        "image_file": "55803.jpg",
+        "text": "id: 55803\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Night suits\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: SDL by Sweet Dreams Women Purple Printed Night Suit S11-3127\n"
+    },
+    {
+        "text_file": "33139.txt",
+        "image_file": "33139.jpg",
+        "text": "id: 33139\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Printed Grey T-shirt\n"
+    },
+    {
+        "text_file": "9900.txt",
+        "image_file": "9900.jpg",
+        "text": "id: 9900\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Men Actif Fit Low Waist Blue Jeans\n"
+    },
+    {
+        "text_file": "57443.txt",
+        "image_file": "57443.jpg",
+        "text": "id: 57443\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Angry Birds Women Blue T-shirt\n"
+    },
+    {
+        "text_file": "29012.txt",
+        "image_file": "29012.jpg",
+        "text": "id: 29012\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Panel Polo Red T-shirt\n"
+    },
+    {
+        "text_file": "9674.txt",
+        "image_file": "9674.jpg",
+        "text": "id: 9674\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Pre FM trg Black Shorts\n"
+    },
+    {
+        "text_file": "27427.txt",
+        "image_file": "27427.jpg",
+        "text": "id: 27427\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Lounge Shorts\nbaseColour: Purple\nseason: Winter\nusage: Casual\nproductDisplayName: Jockey Women Purple Lounge Shorts 1308\n"
+    },
+    {
+        "text_file": "31225.txt",
+        "image_file": "31225.jpg",
+        "text": "id: 31225\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Winter\nusage: Casual\nproductDisplayName: Puma Women Black Polo T-shirt\n"
+    },
+    {
+        "text_file": "8833.txt",
+        "image_file": "8833.jpg",
+        "text": "id: 8833\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Men Rts Vneck Black Black Sweaters\n"
+    },
+    {
+        "text_file": "29182.txt",
+        "image_file": "29182.jpg",
+        "text": "id: 29182\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Women White Tunics\n"
+    },
+    {
+        "text_file": "19646.txt",
+        "image_file": "19646.jpg",
+        "text": "id: 19646\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Solid Black Top\n"
+    },
+    {
+        "text_file": "4859.txt",
+        "image_file": "4859.jpg",
+        "text": "id: 4859\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Maroon\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Barcelona Maroon Blue Jersey\n"
+    },
+    {
+        "text_file": "3317.txt",
+        "image_file": "3317.jpg",
+        "text": "id: 3317\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Sports\nproductDisplayName: CSK Mens Fangear Polo Jersey\n"
+    },
+    {
+        "text_file": "52144.txt",
+        "image_file": "52144.jpg",
+        "text": "id: 52144\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Femella Women Green Polo T-Shirt\n"
+    },
+    {
+        "text_file": "9143.txt",
+        "image_file": "9143.jpg",
+        "text": "id: 9143\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Women Blue Skinny Fit Stretchable Jeans\n"
+    },
+    {
+        "text_file": "44689.txt",
+        "image_file": "44689.jpg",
+        "text": "id: 44689\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Beige\nseason: Summer\nusage: Casual\nproductDisplayName: Wills Lifestyle Women Beige Victoria Laced T-shirt\n"
+    },
+    {
+        "text_file": "3420.txt",
+        "image_file": "3420.jpg",
+        "text": "id: 3420\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men's Chai Garam Black T-shirt\n"
+    },
+    {
+        "text_file": "5782.txt",
+        "image_file": "5782.jpg",
+        "text": "id: 5782\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Purple Peace Top\n"
+    },
+    {
+        "text_file": "4032.txt",
+        "image_file": "4032.jpg",
+        "text": "id: 4032\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men's I'd Love To Help You Out Black T-shirt\n"
+    },
+    {
+        "text_file": "5437.txt",
+        "image_file": "5437.jpg",
+        "text": "id: 5437\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men's Swoosh White T-shirt\n"
+    },
+    {
+        "text_file": "59131.txt",
+        "image_file": "59131.jpg",
+        "text": "id: 59131\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Brown\nseason: Summer\nusage: Casual\nproductDisplayName: Just Natural Men Brown Jacket\n"
+    },
+    {
+        "text_file": "22467.txt",
+        "image_file": "22467.jpg",
+        "text": "id: 22467\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Olive\nseason: Summer\nusage: Casual\nproductDisplayName: Timberland Men Olive Vintage Rugged Shirt\n"
+    },
+    {
+        "text_file": "33561.txt",
+        "image_file": "33561.jpg",
+        "text": "id: 33561\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Women Big Rodeo Green T-shirt\n"
+    },
+    {
+        "text_file": "23695.txt",
+        "image_file": "23695.jpg",
+        "text": "id: 23695\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Proline Men Purple Polo T-shirt\n"
+    },
+    {
+        "text_file": "38249.txt",
+        "image_file": "38249.jpg",
+        "text": "id: 38249\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Ben 10 Boys Red Printed T-shirt\n"
+    },
+    {
+        "text_file": "44668.txt",
+        "image_file": "44668.jpg",
+        "text": "id: 44668\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Wills Lifestyle Women Pink Shirt\n"
+    },
+    {
+        "text_file": "26272.txt",
+        "image_file": "26272.jpg",
+        "text": "id: 26272\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Proline Men Blue Polo T-shirt\n"
+    },
+    {
+        "text_file": "9806.txt",
+        "image_file": "9806.jpg",
+        "text": "id: 9806\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Fall\nusage: Formal\nproductDisplayName: John Miller Men Black Checks Shirts\n"
+    },
+    {
+        "text_file": "15765.txt",
+        "image_file": "15765.jpg",
+        "text": "id: 15765\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Facit Men Hunk Yellow Innerwear Vest\n"
+    },
+    {
+        "text_file": "20362.txt",
+        "image_file": "20362.jpg",
+        "text": "id: 20362\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Men Solid Black T-Shirt\n"
+    },
+    {
+        "text_file": "37798.txt",
+        "image_file": "37798.jpg",
+        "text": "id: 37798\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Summer\nusage: Formal\nproductDisplayName: John Players Men Striped White Shirt\n"
+    },
+    {
+        "text_file": "8786.txt",
+        "image_file": "8786.jpg",
+        "text": "id: 8786\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Scullers Men Blue & Green Check Shirt\n"
+    },
+    {
+        "text_file": "10809.txt",
+        "image_file": "10809.jpg",
+        "text": "id: 10809\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Mark Rodeo Riveted Black Shirts\n"
+    },
+    {
+        "text_file": "9599.txt",
+        "image_file": "9599.jpg",
+        "text": "id: 9599\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Formal\nproductDisplayName: Scullers Men Navy Blue Shirts\n"
+    },
+    {
+        "text_file": "41744.txt",
+        "image_file": "41744.jpg",
+        "text": "id: 41744\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Doodle Girls Printed White Top\n"
+    },
+    {
+        "text_file": "6042.txt",
+        "image_file": "6042.jpg",
+        "text": "id: 6042\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: UCB Men Basic Logo Light Blue Shirt\n"
+    },
+    {
+        "text_file": "3263.txt",
+        "image_file": "3263.jpg",
+        "text": "id: 3263\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Guerrilla Men's Need Money Yellow T-shirt\n"
+    },
+    {
+        "text_file": "2621.txt",
+        "image_file": "2621.jpg",
+        "text": "id: 2621\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men's Bleed blue India Colors T-shirt\n"
+    },
+    {
+        "text_file": "10805.txt",
+        "image_file": "10805.jpg",
+        "text": "id: 10805\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Rider Solid Black Shirts\n"
+    },
+    {
+        "text_file": "41993.txt",
+        "image_file": "41993.jpg",
+        "text": "id: 41993\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Customised Black Shorts\n"
+    },
+    {
+        "text_file": "37901.txt",
+        "image_file": "37901.jpg",
+        "text": "id: 37901\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Brown\nseason: Summer\nusage: Casual\nproductDisplayName: Proline Brown Polo T-Shirt\n"
+    },
+    {
+        "text_file": "4778.txt",
+        "image_file": "4778.jpg",
+        "text": "id: 4778\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Women's Flora White T-shirt\n"
+    },
+    {
+        "text_file": "59968.txt",
+        "image_file": "59968.jpg",
+        "text": "id: 59968\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Black\nseason: Fall\nusage: Party\nproductDisplayName: Avirate Women Black Dress\n"
+    },
+    {
+        "text_file": "8808.txt",
+        "image_file": "8808.jpg",
+        "text": "id: 8808\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Scullers Men Scul Green Purple Shirt\n"
+    },
+    {
+        "text_file": "12811.txt",
+        "image_file": "12811.jpg",
+        "text": "id: 12811\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Dri-Fit Black Track Pants\n"
+    },
+    {
+        "text_file": "6229.txt",
+        "image_file": "6229.jpg",
+        "text": "id: 6229\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Men's Shot Black T-shirt\n"
+    },
+    {
+        "text_file": "7001.txt",
+        "image_file": "7001.jpg",
+        "text": "id: 7001\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: s.Oliver Women's Purple Blouse Top\n"
+    },
+    {
+        "text_file": "49760.txt",
+        "image_file": "49760.jpg",
+        "text": "id: 49760\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Leggings\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Vishudh Green Leggings\n"
+    },
+    {
+        "text_file": "8858.txt",
+        "image_file": "8858.jpg",
+        "text": "id: 8858\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Mark Taylor Men White Striped Shirt\n"
+    },
+    {
+        "text_file": "45781.txt",
+        "image_file": "45781.jpg",
+        "text": "id: 45781\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Remanika Women Black and White Top\n"
+    },
+    {
+        "text_file": "1813.txt",
+        "image_file": "1813.jpg",
+        "text": "id: 1813\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Sports\nproductDisplayName: Solognac Men Dark Blue T-shirt\n"
+    },
+    {
+        "text_file": "13954.txt",
+        "image_file": "13954.jpg",
+        "text": "id: 13954\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Printed White  Polo Tshirts\n"
+    },
+    {
+        "text_file": "9752.txt",
+        "image_file": "9752.jpg",
+        "text": "id: 9752\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Fall\nusage: Smart Casual\nproductDisplayName: Indian Terrain Men Grey & White Checked Linen Modern Fit Smart-Casual Shirt\n"
+    },
+    {
+        "text_file": "43579.txt",
+        "image_file": "43579.jpg",
+        "text": "id: 43579\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Girls Woven White Top\n"
+    },
+    {
+        "text_file": "38332.txt",
+        "image_file": "38332.jpg",
+        "text": "id: 38332\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Hannah Montana Girls Pink Top\n"
+    },
+    {
+        "text_file": "7768.txt",
+        "image_file": "7768.jpg",
+        "text": "id: 7768\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men's As Vapor Ulti Grey Black T-Shirt\n"
+    },
+    {
+        "text_file": "34564.txt",
+        "image_file": "34564.jpg",
+        "text": "id: 34564\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Tonga Women Printed Black Dress\n"
+    },
+    {
+        "text_file": "33557.txt",
+        "image_file": "33557.jpg",
+        "text": "id: 33557\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Women Chervon Yellow T-shirt\n"
+    },
+    {
+        "text_file": "38994.txt",
+        "image_file": "38994.jpg",
+        "text": "id: 38994\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Jeans Blue Jeans\n"
+    },
+    {
+        "text_file": "26362.txt",
+        "image_file": "26362.jpg",
+        "text": "id: 26362\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Arrow Woman Printed Grey T-shirt\n"
+    },
+    {
+        "text_file": "15702.txt",
+        "image_file": "15702.jpg",
+        "text": "id: 15702\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Men Stripes Red Shirts\n"
+    },
+    {
+        "text_file": "4913.txt",
+        "image_file": "4913.jpg",
+        "text": "id: 4913\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Levis Kids Girl's Diane Pink Kidswear\n"
+    },
+    {
+        "text_file": "12806.txt",
+        "image_file": "12806.jpg",
+        "text": "id: 12806\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Grey\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men Zip Grey Sweatshirts\n"
+    },
+    {
+        "text_file": "2014.txt",
+        "image_file": "2014.jpg",
+        "text": "id: 2014\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men's Classic Yellow Polo T-shirt\n"
+    },
+    {
+        "text_file": "25705.txt",
+        "image_file": "25705.jpg",
+        "text": "id: 25705\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Mumbai Slang Women Printed Grey Top\n"
+    },
+    {
+        "text_file": "43659.txt",
+        "image_file": "43659.jpg",
+        "text": "id: 43659\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: ONLY Women Pink Dress\n"
+    },
+    {
+        "text_file": "52385.txt",
+        "image_file": "52385.jpg",
+        "text": "id: 52385\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Nightdress\nbaseColour: Pink\nseason: Winter\nusage: Casual\nproductDisplayName: Red Rose Women Pink Nightdress\n"
+    },
+    {
+        "text_file": "57276.txt",
+        "image_file": "57276.jpg",
+        "text": "id: 57276\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Men Red Check Shirt\n"
+    },
+    {
+        "text_file": "26907.txt",
+        "image_file": "26907.jpg",
+        "text": "id: 26907\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Printed White Top\n"
+    },
+    {
+        "text_file": "11784.txt",
+        "image_file": "11784.jpg",
+        "text": "id: 11784\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Women Solid Black Tshirts\n"
+    },
+    {
+        "text_file": "5879.txt",
+        "image_file": "5879.jpg",
+        "text": "id: 5879\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Women's Polo Pink T-shirt\n"
+    },
+    {
+        "text_file": "17726.txt",
+        "image_file": "17726.jpg",
+        "text": "id: 17726\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Reid & Taylor Men Stripes Purple Shirt\n"
+    },
+    {
+        "text_file": "26916.txt",
+        "image_file": "26916.jpg",
+        "text": "id: 26916\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women black Printed Top\n"
+    },
+    {
+        "text_file": "15614.txt",
+        "image_file": "15614.jpg",
+        "text": "id: 15614\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men Football Soccer Black Tshirts\n"
+    },
+    {
+        "text_file": "13102.txt",
+        "image_file": "13102.jpg",
+        "text": "id: 13102\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Sf Striped Hood White Sweatshirts\n"
+    },
+    {
+        "text_file": "12840.txt",
+        "image_file": "12840.jpg",
+        "text": "id: 12840\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Brown\nseason: Fall\nusage: Casual\nproductDisplayName: Ant Kids Brown Striped T-Shirt\n"
+    },
+    {
+        "text_file": "13109.txt",
+        "image_file": "13109.jpg",
+        "text": "id: 13109\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Pant Climalite Black Track Pants\n"
+    },
+    {
+        "text_file": "17255.txt",
+        "image_file": "17255.jpg",
+        "text": "id: 17255\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: U.S. Polo Assn. Men Printed Black Tshirt\n"
+    },
+    {
+        "text_file": "9647.txt",
+        "image_file": "9647.jpg",
+        "text": "id: 9647\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Indigo Nation Men Checks Green Shirts\n"
+    },
+    {
+        "text_file": "54949.txt",
+        "image_file": "54949.jpg",
+        "text": "id: 54949\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Grey Melange\nseason: Summer\nusage: Casual\nproductDisplayName: Do u speak green Men Grey Sweatshirt\n"
+    },
+    {
+        "text_file": "19391.txt",
+        "image_file": "19391.jpg",
+        "text": "id: 19391\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Printed Blue Tshirt\n"
+    },
+    {
+        "text_file": "29598.txt",
+        "image_file": "29598.jpg",
+        "text": "id: 29598\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Indigo Nation Men Striped Black & Blue T-shirt\n"
+    },
+    {
+        "text_file": "21422.txt",
+        "image_file": "21422.jpg",
+        "text": "id: 21422\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Green\nseason: Winter\nusage: Casual\nproductDisplayName: Roxy Women Green Top\n"
+    },
+    {
+        "text_file": "33200.txt",
+        "image_file": "33200.jpg",
+        "text": "id: 33200\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Off White\nseason: Summer\nusage: Casual\nproductDisplayName: Sepia Women Off White Top\n"
+    },
+    {
+        "text_file": "21402.txt",
+        "image_file": "21402.jpg",
+        "text": "id: 21402\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Locomotive Men Printed White Tshirt\n"
+    },
+    {
+        "text_file": "59106.txt",
+        "image_file": "59106.jpg",
+        "text": "id: 59106\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Black\nseason: Winter\nusage: Casual\nproductDisplayName: Just Natural Men Black Jacket\n"
+    },
+    {
+        "text_file": "9835.txt",
+        "image_file": "9835.jpg",
+        "text": "id: 9835\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbasecolour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Little Miss Women Printed Grey T-shirt\n"
+    },
+    {
+        "text_file": "9679.txt",
+        "image_file": "9679.jpg",
+        "text": "id: 9679\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Navy Blue T-shirt\n"
+    },
+    {
+        "text_file": "53764.txt",
+        "image_file": "53764.jpg",
+        "text": "id: 53764\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Blue Striped T-shirt\n"
+    },
+    {
+        "text_file": "41346.txt",
+        "image_file": "41346.jpg",
+        "text": "id: 41346\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Men Navy Blue Texas Jeans\n"
+    },
+    {
+        "text_file": "4756.txt",
+        "image_file": "4756.jpg",
+        "text": "id: 4756\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Men's Force Polo White T-shirt\n"
+    },
+    {
+        "text_file": "9754.txt",
+        "image_file": "9754.jpg",
+        "text": "id: 9754\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Women Ess Mf Yoga Black Pants\n"
+    },
+    {
+        "text_file": "11783.txt",
+        "image_file": "11783.jpg",
+        "text": "id: 11783\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Men Printed Grey Tshirts\n"
+    },
+    {
+        "text_file": "31660.txt",
+        "image_file": "31660.jpg",
+        "text": "id: 31660\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Indigo Nation Men Printed Black Shirt\n"
+    },
+    {
+        "text_file": "57079.txt",
+        "image_file": "57079.jpg",
+        "text": "id: 57079\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Jumpsuit\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Elle Women Blue Jumpsuit\n"
+    },
+    {
+        "text_file": "16544.txt",
+        "image_file": "16544.jpg",
+        "text": "id: 16544\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Basics Men White Slim Fit Checked Shirt\n"
+    },
+    {
+        "text_file": "6286.txt",
+        "image_file": "6286.jpg",
+        "text": "id: 6286\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: UCB Men's Super Star Print Purple T-shirt\n"
+    },
+    {
+        "text_file": "21165.txt",
+        "image_file": "21165.jpg",
+        "text": "id: 21165\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: s.Oliver Women Layered Navy Blue Top\n"
+    },
+    {
+        "text_file": "38501.txt",
+        "image_file": "38501.jpg",
+        "text": "id: 38501\ngender: Girls\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Woven Navy Blue Jeans\n"
+    },
+    {
+        "text_file": "46273.txt",
+        "image_file": "46273.jpg",
+        "text": "id: 46273\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: 109F Women Black Embellished Tunic\n"
+    },
+    {
+        "text_file": "15984.txt",
+        "image_file": "15984.jpg",
+        "text": "id: 15984\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbasecolour: Yellow\nseason: Fall\nusage: Casual\nproductDisplayName: Turtle Check Men Yellow Shirt\n"
+    },
+    {
+        "text_file": "6956.txt",
+        "image_file": "6956.jpg",
+        "text": "id: 6956\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: s.Oliver Men White Shirt\n"
+    },
+    {
+        "text_file": "31153.txt",
+        "image_file": "31153.jpg",
+        "text": "id: 31153\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Printed Black T-shirt\n"
+    },
+    {
+        "text_file": "27392.txt",
+        "image_file": "27392.jpg",
+        "text": "id: 27392\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: 2go Active Gear USA Men Pack Of 3 T-shirt\n"
+    },
+    {
+        "text_file": "5762.txt",
+        "image_file": "5762.jpg",
+        "text": "id: 5762\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women's White Blue Shorts\n"
+    },
+    {
+        "text_file": "16912.txt",
+        "image_file": "16912.jpg",
+        "text": "id: 16912\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Mr. Men Men Printed Green Tshirt\n"
+    },
+    {
+        "text_file": "4407.txt",
+        "image_file": "4407.jpg",
+        "text": "id: 4407\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: John Lenon Men's Painted On The Wall Dark Grey T-shirt\n"
+    },
+    {
+        "text_file": "58735.txt",
+        "image_file": "58735.jpg",
+        "text": "id: 58735\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Women Pink T-shirt\n"
+    },
+    {
+        "text_file": "52147.txt",
+        "image_file": "52147.jpg",
+        "text": "id: 52147\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Lime Green\nseason: Summer\nusage: Casual\nproductDisplayName: Femella Women Green Polo T-Shirt\n"
+    },
+    {
+        "text_file": "10711.txt",
+        "image_file": "10711.jpg",
+        "text": "id: 10711\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Nike Women White Casual T-shirt\n"
+    },
+    {
+        "text_file": "25373.txt",
+        "image_file": "25373.jpg",
+        "text": "id: 25373\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Levis Men White Innerwear Vest\n"
+    },
+    {
+        "text_file": "8002.txt",
+        "image_file": "8002.jpg",
+        "text": "id: 8002\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Fall\nusage: Sports\nproductDisplayName: Fila Men's Striper Pique Polo White Orange Navy T-shirt\n"
+    },
+    {
+        "text_file": "31252.txt",
+        "image_file": "31252.jpg",
+        "text": "id: 31252\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Dizzy Graphic Green T-shirt\n"
+    },
+    {
+        "text_file": "7137.txt",
+        "image_file": "7137.jpg",
+        "text": "id: 7137\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Urban Yoga Men Bottoms Black Yoga Pants\n"
+    },
+    {
+        "text_file": "5764.txt",
+        "image_file": "5764.jpg",
+        "text": "id: 5764\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women's Purple Sleeveless Party Top\n"
+    },
+    {
+        "text_file": "30411.txt",
+        "image_file": "30411.jpg",
+        "text": "id: 30411\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Deni Yo Men Slim Fit Washed Blue Jeans\n"
+    },
+    {
+        "text_file": "10884.txt",
+        "image_file": "10884.jpg",
+        "text": "id: 10884\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Grey Glow In Dark T-shirt\n"
+    },
+    {
+        "text_file": "57093.txt",
+        "image_file": "57093.jpg",
+        "text": "id: 57093\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Elle Women Blue Shorts\n"
+    },
+    {
+        "text_file": "17886.txt",
+        "image_file": "17886.jpg",
+        "text": "id: 17886\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Levis Men Comfort Style White Innerwear Vest\n"
+    },
+    {
+        "text_file": "32383.txt",
+        "image_file": "32383.jpg",
+        "text": "id: 32383\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Arrow Woman Black Top\n"
+    },
+    {
+        "text_file": "20176.txt",
+        "image_file": "20176.jpg",
+        "text": "id: 20176\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Vintage Grey Shirt\n"
+    },
+    {
+        "text_file": "34147.txt",
+        "image_file": "34147.jpg",
+        "text": "id: 34147\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Blue Denim Shorts\n"
+    },
+    {
+        "text_file": "40143.txt",
+        "image_file": "40143.jpg",
+        "text": "id: 40143\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbasecolour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Girls Pretty Blossom Blue Top\n"
+    },
+    {
+        "text_file": "29581.txt",
+        "image_file": "29581.jpg",
+        "text": "id: 29581\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Vintage Yellow T-shirt\n"
+    },
+    {
+        "text_file": "44893.txt",
+        "image_file": "44893.jpg",
+        "text": "id: 44893\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Grey Honeycomb Polo T-shirt\n"
+    },
+    {
+        "text_file": "9732.txt",
+        "image_file": "9732.jpg",
+        "text": "id: 9732\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Indian Terrain Men Check White  Shirt\n"
+    },
+    {
+        "text_file": "40144.txt",
+        "image_file": "40144.jpg",
+        "text": "id: 40144\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbasecolour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Girls Pretty Blossom Pink Top\n"
+    },
+    {
+        "text_file": "3898.txt",
+        "image_file": "3898.jpg",
+        "text": "id: 3898\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Disney Kids Girl's Pink Pooh And Tree Kidswear\n"
+    },
+    {
+        "text_file": "44686.txt",
+        "image_file": "44686.jpg",
+        "text": "id: 44686\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Leggings\nbaseColour: Magenta\nseason: Summer\nusage: Casual\nproductDisplayName: Wills Lifestyle Women Magenta Leggings\n"
+    },
+    {
+        "text_file": "9689.txt",
+        "image_file": "9689.jpg",
+        "text": "id: 9689\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Classic Polo Men Ikon Blue Polo Tshirts\n"
+    },
+    {
+        "text_file": "7928.txt",
+        "image_file": "7928.jpg",
+        "text": "id: 7928\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Olive\nseason: Fall\nusage: Casual\nproductDisplayName: Proline Men Olive Green Polo T-shirt\n"
+    },
+    {
+        "text_file": "26068.txt",
+        "image_file": "26068.jpg",
+        "text": "id: 26068\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Green\nseason: Summer\nusage: Formal\nproductDisplayName: John Miller Men Striped Green Shirt\n"
+    },
+    {
+        "text_file": "4236.txt",
+        "image_file": "4236.jpg",
+        "text": "id: 4236\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Probase Men's Crack Print Challenger Purple Tshirt\n"
+    },
+    {
+        "text_file": "28539.txt",
+        "image_file": "28539.jpg",
+        "text": "id: 28539\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Cruiser Retro Black T-shirt\n"
+    },
+    {
+        "text_file": "13403.txt",
+        "image_file": "13403.jpg",
+        "text": "id: 13403\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Check Red Shirts\n"
+    },
+    {
+        "text_file": "17907.txt",
+        "image_file": "17907.jpg",
+        "text": "id: 17907\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Nike Men Sptcas Black Sweatshirt\n"
+    },
+    {
+        "text_file": "34571.txt",
+        "image_file": "34571.jpg",
+        "text": "id: 34571\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Tonga Women Black Top\n"
+    },
+    {
+        "text_file": "44831.txt",
+        "image_file": "44831.jpg",
+        "text": "id: 44831\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Black Faas Graphic T-shirt\n"
+    },
+    {
+        "text_file": "11341.txt",
+        "image_file": "11341.jpg",
+        "text": "id: 11341\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Men Light Blue Chicago Fit Jeans\n"
+    },
+    {
+        "text_file": "34578.txt",
+        "image_file": "34578.jpg",
+        "text": "id: 34578\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Tonga Women Printed Red Dress\n"
+    },
+    {
+        "text_file": "11990.txt",
+        "image_file": "11990.jpg",
+        "text": "id: 11990\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Classic Polo Men Stripes Red Tshirts\n"
+    },
+    {
+        "text_file": "6067.txt",
+        "image_file": "6067.jpg",
+        "text": "id: 6067\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: UCB Women's Tank With All Over Photo Print White T-shirt\n"
+    },
+    {
+        "text_file": "2329.txt",
+        "image_file": "2329.jpg",
+        "text": "id: 2329\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Reebok Men Force India Grey T-shirt\n"
+    },
+    {
+        "text_file": "5983.txt",
+        "image_file": "5983.jpg",
+        "text": "id: 5983\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Highlander Men Green Checked Slim Fit Shirt\n"
+    },
+    {
+        "text_file": "9864.txt",
+        "image_file": "9864.jpg",
+        "text": "id: 9864\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Status Quo Men Stripes Purple Tshirts\n"
+    },
+    {
+        "text_file": "22317.txt",
+        "image_file": "22317.jpg",
+        "text": "id: 22317\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Khaki\nseason: Fall\nusage: Casual\nproductDisplayName: Wildcraft Men Solid Khaki Jacket\n"
+    },
+    {
+        "text_file": "16229.txt",
+        "image_file": "16229.jpg",
+        "text": "id: 16229\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Puma Men Logo Crew  Black SweatShirt\n"
+    },
+    {
+        "text_file": "34402.txt",
+        "image_file": "34402.jpg",
+        "text": "id: 34402\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men Meltdown Black T-shirt\n"
+    },
+    {
+        "text_file": "10440.txt",
+        "image_file": "10440.jpg",
+        "text": "id: 10440\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Flying Machine Men Ydc Green Shirts\n"
+    },
+    {
+        "text_file": "12322.txt",
+        "image_file": "12322.jpg",
+        "text": "id: 12322\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Formal\nproductDisplayName: Genesis Men Striped Purple Shirt\n"
+    },
+    {
+        "text_file": "10444.txt",
+        "image_file": "10444.jpg",
+        "text": "id: 10444\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Flying Machine Men Ydc Aqua Green Shirts\n"
+    },
+    {
+        "text_file": "10842.txt",
+        "image_file": "10842.jpg",
+        "text": "id: 10842\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Celebrate Polo Grey T-Shirt\n"
+    },
+    {
+        "text_file": "12211.txt",
+        "image_file": "12211.jpg",
+        "text": "id: 12211\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Basics Men Blue Printed T-shirt\n"
+    },
+    {
+        "text_file": "43464.txt",
+        "image_file": "43464.jpg",
+        "text": "id: 43464\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Night suits\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: SDL by Sweet Dreams Women Blue Night suits\n"
+    },
+    {
+        "text_file": "8585.txt",
+        "image_file": "8585.jpg",
+        "text": "id: 8585\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Scullers Men Scul Purple Shirts\n"
+    },
+    {
+        "text_file": "54919.txt",
+        "image_file": "54919.jpg",
+        "text": "id: 54919\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Olive\nseason: Summer\nusage: Casual\nproductDisplayName: Do u speak green Men Olive 3/4th Pant\n"
+    },
+    {
+        "text_file": "31365.txt",
+        "image_file": "31365.jpg",
+        "text": "id: 31365\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Locomotive Men Printed Grey T-shirt\n"
+    },
+    {
+        "text_file": "4845.txt",
+        "image_file": "4845.jpg",
+        "text": "id: 4845\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Sports\nproductDisplayName: Sher Singh Women's Red Polo T-shirt\n"
+    },
+    {
+        "text_file": "48428.txt",
+        "image_file": "48428.jpg",
+        "text": "id: 48428\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Cream\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Men Cream Reverse Printed T-shirt\n"
+    },
+    {
+        "text_file": "5443.txt",
+        "image_file": "5443.jpg",
+        "text": "id: 5443\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Women's Striped Polo Orange T-shirt\n"
+    },
+    {
+        "text_file": "16337.txt",
+        "image_file": "16337.jpg",
+        "text": "id: 16337\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Fall\nusage: Formal\nproductDisplayName: Peter England Men Stripes Blue Shirt\n"
+    },
+    {
+        "text_file": "11433.txt",
+        "image_file": "11433.jpg",
+        "text": "id: 11433\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: Mauve\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Light Winter Mauve Vest\n"
+    },
+    {
+        "text_file": "5179.txt",
+        "image_file": "5179.jpg",
+        "text": "id: 5179\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Batman Men's Logo Dripping Black T-shirt\n"
+    },
+    {
+        "text_file": "3800.txt",
+        "image_file": "3800.jpg",
+        "text": "id: 3800\ngender: Unisex\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Tantra  Kid's Yumm Pink Kidswear\n"
+    },
+    {
+        "text_file": "27561.txt",
+        "image_file": "27561.jpg",
+        "text": "id: 27561\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Lavender\nseason: Summer\nusage: Casual\nproductDisplayName: Scullers Men Striped Lavender Shirt\n"
+    },
+    {
+        "text_file": "26890.txt",
+        "image_file": "26890.jpg",
+        "text": "id: 26890\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Printed Pink Top\n"
+    },
+    {
+        "text_file": "24307.txt",
+        "image_file": "24307.jpg",
+        "text": "id: 24307\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Grey Printed Sweatshirt\n"
+    },
+    {
+        "text_file": "39385.txt",
+        "image_file": "39385.jpg",
+        "text": "id: 39385\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Peter England Men Grey Jeans\n"
+    },
+    {
+        "text_file": "2936.txt",
+        "image_file": "2936.jpg",
+        "text": "id: 2936\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Maroon\nseason: Fall\nusage: Casual\nproductDisplayName: DUSG Women's Red Polo T-shirt\n"
+    },
+    {
+        "text_file": "4406.txt",
+        "image_file": "4406.jpg",
+        "text": "id: 4406\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: John Lenon Men's Working Class Hero Black T-shirt\n"
+    },
+    {
+        "text_file": "21868.txt",
+        "image_file": "21868.jpg",
+        "text": "id: 21868\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Fall\nusage: Casual\nproductDisplayName: Chhota Bheem Kids Girls Are You Game Pink Top\n"
+    },
+    {
+        "text_file": "7639.txt",
+        "image_file": "7639.jpg",
+        "text": "id: 7639\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Sports\nproductDisplayName: Puma Men's Slogan Grey T-shirt\n"
+    },
+    {
+        "text_file": "3992.txt",
+        "image_file": "3992.jpg",
+        "text": "id: 3992\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Mr.Men Men's Funny Black T-shirt\n"
+    },
+    {
+        "text_file": "17899.txt",
+        "image_file": "17899.jpg",
+        "text": "id: 17899\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Nike Men Casual Black Jacket\n"
+    },
+    {
+        "text_file": "3777.txt",
+        "image_file": "3777.jpg",
+        "text": "id: 3777\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Status Quo Men's Fushia Polo T-shirt\n"
+    },
+    {
+        "text_file": "38984.txt",
+        "image_file": "38984.jpg",
+        "text": "id: 38984\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Rodeo Red T-shirt\n"
+    },
+    {
+        "text_file": "1651.txt",
+        "image_file": "1651.jpg",
+        "text": "id: 1651\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Fall\nusage: Sports\nproductDisplayName: Domyos Women Style Pink T-shirt\n"
+    },
+    {
+        "text_file": "57423.txt",
+        "image_file": "57423.jpg",
+        "text": "id: 57423\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Angry Birds Women White T-shirt\n"
+    },
+    {
+        "text_file": "8500.txt",
+        "image_file": "8500.jpg",
+        "text": "id: 8500\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Multi\nseason: Fall\nusage: Casual\nproductDisplayName: Forever New Women GeoPrint Multi Coloured Dress\n"
+    },
+    {
+        "text_file": "2207.txt",
+        "image_file": "2207.jpg",
+        "text": "id: 2207\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Stripe Blue T-shirt\n"
+    },
+    {
+        "text_file": "4195.txt",
+        "image_file": "4195.jpg",
+        "text": "id: 4195\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Ed Hardy Men's Eagle Tiger Purple T-shirt\n"
+    },
+    {
+        "text_file": "8942.txt",
+        "image_file": "8942.jpg",
+        "text": "id: 8942\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Pink\nseason: Fall\nusage: Casual\nproductDisplayName: Indigo Nation Men Reversible Bling Pink Shirts\n"
+    },
+    {
+        "text_file": "57431.txt",
+        "image_file": "57431.jpg",
+        "text": "id: 57431\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Angry Birds Women Pink T-shirt\n"
+    },
+    {
+        "text_file": "20154.txt",
+        "image_file": "20154.jpg",
+        "text": "id: 20154\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Tylor Navy Blue Shirt\n"
+    },
+    {
+        "text_file": "23057.txt",
+        "image_file": "23057.jpg",
+        "text": "id: 23057\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Arrow Sport Men Blue Striped T-shirt\n"
+    },
+    {
+        "text_file": "58372.txt",
+        "image_file": "58372.jpg",
+        "text": "id: 58372\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Beige\nseason: Summer\nusage: Casual\nproductDisplayName: Locomotive Men Beige T-shirt\n"
+    },
+    {
+        "text_file": "7307.txt",
+        "image_file": "7307.jpg",
+        "text": "id: 7307\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: UCB Women Sleeveless White Top\n"
+    },
+    {
+        "text_file": "37516.txt",
+        "image_file": "37516.jpg",
+        "text": "id: 37516\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Leggings\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Madagascar3 Infant Boys White Leggings\n"
+    },
+    {
+        "text_file": "11019.txt",
+        "image_file": "11019.jpg",
+        "text": "id: 11019\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Women Check Purple Shirt\n"
+    },
+    {
+        "text_file": "48509.txt",
+        "image_file": "48509.jpg",
+        "text": "id: 48509\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Women Mauve & Cream Striped Top\n"
+    },
+    {
+        "text_file": "5982.txt",
+        "image_file": "5982.jpg",
+        "text": "id: 5982\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Locomotive Men Blue Checked Shirt\n"
+    },
+    {
+        "text_file": "19838.txt",
+        "image_file": "19838.jpg",
+        "text": "id: 19838\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: U.S. Polo Assn. Men Check Red Shirt\n"
+    },
+    {
+        "text_file": "34187.txt",
+        "image_file": "34187.jpg",
+        "text": "id: 34187\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Printed Pink T-shirt\n"
+    },
+    {
+        "text_file": "4205.txt",
+        "image_file": "4205.jpg",
+        "text": "id: 4205\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Disney Kids Boy's Red Mickey Since 1928 Tee Kidswear\n"
+    },
+    {
+        "text_file": "22208.txt",
+        "image_file": "22208.jpg",
+        "text": "id: 22208\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Pink\nseason: Fall\nusage: Casual\nproductDisplayName: Timberland Men Pink Shirt\n"
+    },
+    {
+        "text_file": "10454.txt",
+        "image_file": "10454.jpg",
+        "text": "id: 10454\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Fall\nusage: Casual\nproductDisplayName: Flying Machine Men Gloden Haze Yellow Tshirts\n"
+    },
+    {
+        "text_file": "46379.txt",
+        "image_file": "46379.jpg",
+        "text": "id: 46379\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Magenta\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Magenta & White Shirt\n"
+    },
+    {
+        "text_file": "4836.txt",
+        "image_file": "4836.jpg",
+        "text": "id: 4836\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Sher Singh Men's Red Polo T-shirt\n"
+    },
+    {
+        "text_file": "43045.txt",
+        "image_file": "43045.jpg",
+        "text": "id: 43045\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Pink Shorts\n"
+    },
+    {
+        "text_file": "18524.txt",
+        "image_file": "18524.jpg",
+        "text": "id: 18524\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: C Vox Women Solid 1351 Black Jacket\n"
+    },
+    {
+        "text_file": "42205.txt",
+        "image_file": "42205.jpg",
+        "text": "id: 42205\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Sepia Women Blue Top\n"
+    },
+    {
+        "text_file": "39723.txt",
+        "image_file": "39723.jpg",
+        "text": "id: 39723\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Arrow Woman Aqua Green Dress\n"
+    },
+    {
+        "text_file": "14508.txt",
+        "image_file": "14508.jpg",
+        "text": "id: 14508\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Solid Navy Blue Jerseys\n"
+    },
+    {
+        "text_file": "39336.txt",
+        "image_file": "39336.jpg",
+        "text": "id: 39336\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Capris\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini & Jony Boys Blue Shorts\n"
+    },
+    {
+        "text_file": "4982.txt",
+        "image_file": "4982.jpg",
+        "text": "id: 4982\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Peach\nseason: Summer\nusage: Casual\nproductDisplayName: Palm Tree Girl's Billy Peach Kidswear\n"
+    },
+    {
+        "text_file": "43065.txt",
+        "image_file": "43065.jpg",
+        "text": "id: 43065\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Grey Striped T-shirt\n"
+    },
+    {
+        "text_file": "16828.txt",
+        "image_file": "16828.jpg",
+        "text": "id: 16828\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Little Miss Women Printed Green T-shirt\n"
+    },
+    {
+        "text_file": "46282.txt",
+        "image_file": "46282.jpg",
+        "text": "id: 46282\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: 109F Women Yellow Tunic\n"
+    },
+    {
+        "text_file": "2026.txt",
+        "image_file": "2026.jpg",
+        "text": "id: 2026\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Mens Full Deep Green T-shirt\n"
+    },
+    {
+        "text_file": "29711.txt",
+        "image_file": "29711.jpg",
+        "text": "id: 29711\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Formal\nproductDisplayName: John Miller Men Check Blue Shirt\n"
+    },
+    {
+        "text_file": "13965.txt",
+        "image_file": "13965.jpg",
+        "text": "id: 13965\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Inkfruit Men Printed Blue Tshirts\n"
+    },
+    {
+        "text_file": "10713.txt",
+        "image_file": "10713.jpg",
+        "text": "id: 10713\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Capris\nbaseColour: Blue\nseason: Winter\nusage: Sports\nproductDisplayName: Nike Women Blue Dri-Fit Capris\n"
+    },
+    {
+        "text_file": "6879.txt",
+        "image_file": "6879.jpg",
+        "text": "id: 6879\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Peach\nseason: Summer\nusage: Casual\nproductDisplayName: Forever New Women Peach Floral Lace Neckline Peach Top\n"
+    },
+    {
+        "text_file": "45946.txt",
+        "image_file": "45946.jpg",
+        "text": "id: 45946\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Tokyo Talkies Women White & Pink T-shirt\n"
+    },
+    {
+        "text_file": "17547.txt",
+        "image_file": "17547.jpg",
+        "text": "id: 17547\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Fall\nusage: Formal\nproductDisplayName: Mark Taylor Men Blue & White Striped Shirt\n"
+    },
+    {
+        "text_file": "26872.txt",
+        "image_file": "26872.jpg",
+        "text": "id: 26872\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women White Top\n"
+    },
+    {
+        "text_file": "16521.txt",
+        "image_file": "16521.jpg",
+        "text": "id: 16521\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Locomotive Men Washed Blue Jeans\n"
+    },
+    {
+        "text_file": "38843.txt",
+        "image_file": "38843.jpg",
+        "text": "id: 38843\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Latin Quarters Women Zip Piping Navy Blue Dress\n"
+    },
+    {
+        "text_file": "6168.txt",
+        "image_file": "6168.jpg",
+        "text": "id: 6168\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Men's Guns Cardinal T-shirt\n"
+    },
+    {
+        "text_file": "58015.txt",
+        "image_file": "58015.jpg",
+        "text": "id: 58015\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Latin Quarters Women Pink Printed Top\n"
+    },
+    {
+        "text_file": "23141.txt",
+        "image_file": "23141.jpg",
+        "text": "id: 23141\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Quechua Men Warm Fleece Navy Blue Sweatshirt\n"
+    },
+    {
+        "text_file": "23136.txt",
+        "image_file": "23136.jpg",
+        "text": "id: 23136\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Quechua Women Fleece  Blue Sweatshirt\n"
+    },
+    {
+        "text_file": "7704.txt",
+        "image_file": "7704.jpg",
+        "text": "id: 7704\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women's She's Got Attitude Red Top\n"
+    },
+    {
+        "text_file": "31468.txt",
+        "image_file": "31468.jpg",
+        "text": "id: 31468\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Off White\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Cricket Off White Track Pants\n"
+    },
+    {
+        "text_file": "18965.txt",
+        "image_file": "18965.jpg",
+        "text": "id: 18965\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Pink\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Solid Pink Sweatshirt\n"
+    },
+    {
+        "text_file": "6980.txt",
+        "image_file": "6980.jpg",
+        "text": "id: 6980\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: s.Oliver Men Grey White Check Shirt\n"
+    },
+    {
+        "text_file": "2114.txt",
+        "image_file": "2114.jpg",
+        "text": "id: 2114\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Women Essential Black Candy Pants\n"
+    },
+    {
+        "text_file": "10693.txt",
+        "image_file": "10693.jpg",
+        "text": "id: 10693\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Doodle Girl Cute Purple Tops\n"
+    },
+    {
+        "text_file": "50715.txt",
+        "image_file": "50715.jpg",
+        "text": "id: 50715\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Doodle Boys White Printed T-Shirt\n"
+    },
+    {
+        "text_file": "3949.txt",
+        "image_file": "3949.jpg",
+        "text": "id: 3949\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women White Flower Top Purple Stripes Top\n"
+    },
+    {
+        "text_file": "4015.txt",
+        "image_file": "4015.jpg",
+        "text": "id: 4015\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men's I don't Have Enough Black T-shirt\n"
+    },
+    {
+        "text_file": "43538.txt",
+        "image_file": "43538.jpg",
+        "text": "id: 43538\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbasecolour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Women Blue Top\n"
+    },
+    {
+        "text_file": "55800.txt",
+        "image_file": "55800.jpg",
+        "text": "id: 55800\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Nightdress\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: SDL by Sweet Dreams Women Green Nightdress\n"
+    },
+    {
+        "text_file": "56771.txt",
+        "image_file": "56771.jpg",
+        "text": "id: 56771\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Horsefly Men Grey Shirt\n"
+    },
+    {
+        "text_file": "11175.txt",
+        "image_file": "11175.jpg",
+        "text": "id: 11175\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Scullers Men Stripes White Sweaters\n"
+    },
+    {
+        "text_file": "16291.txt",
+        "image_file": "16291.jpg",
+        "text": "id: 16291\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Peter England Men Stripes Blue Polo T-Shirt\n"
+    },
+    {
+        "text_file": "22389.txt",
+        "image_file": "22389.jpg",
+        "text": "id: 22389\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Mark Taylor Men White & Blue Striped Shirt\n"
+    },
+    {
+        "text_file": "5544.txt",
+        "image_file": "5544.jpg",
+        "text": "id: 5544\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men's Trainning Orange T-shirt\n"
+    },
+    {
+        "text_file": "39337.txt",
+        "image_file": "39337.jpg",
+        "text": "id: 39337\ngender: Girls\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Capris\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Gini & Jony Girls Pink Pedal Pusher\n"
+    },
+    {
+        "text_file": "4827.txt",
+        "image_file": "4827.jpg",
+        "text": "id: 4827\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Men's Woven Black White Track Pant\n"
+    },
+    {
+        "text_file": "39398.txt",
+        "image_file": "39398.jpg",
+        "text": "id: 39398\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Peter England Men Polo Neck Purple T-shirt\n"
+    },
+    {
+        "text_file": "38979.txt",
+        "image_file": "38979.jpg",
+        "text": "id: 38979\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Summer\nusage: Formal\nproductDisplayName: Arrow Men Grey Check Shirt\n"
+    },
+    {
+        "text_file": "4749.txt",
+        "image_file": "4749.jpg",
+        "text": "id: 4749\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men's Polo Red Polo T-shirt\n"
+    },
+    {
+        "text_file": "10866.txt",
+        "image_file": "10866.jpg",
+        "text": "id: 10866\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbasecolour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Motor Rider Red T-Shirts\n"
+    },
+    {
+        "text_file": "16906.txt",
+        "image_file": "16906.jpg",
+        "text": "id: 16906\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Maroon\nseason: Fall\nusage: Casual\nproductDisplayName: Status Quo Men Solid Maroon Sweatshirt\n"
+    },
+    {
+        "text_file": "57422.txt",
+        "image_file": "57422.jpg",
+        "text": "id: 57422\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Angry Birds Women Red T-shirt\n"
+    },
+    {
+        "text_file": "5116.txt",
+        "image_file": "5116.jpg",
+        "text": "id: 5116\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Women Folk Side Print Grey T-shirt\n"
+    },
+    {
+        "text_file": "12827.txt",
+        "image_file": "12827.jpg",
+        "text": "id: 12827\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Spykar Men Check White Shirts\n"
+    },
+    {
+        "text_file": "8487.txt",
+        "image_file": "8487.jpg",
+        "text": "id: 8487\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Cream\nseason: Fall\nusage: Casual\nproductDisplayName: Forever New Women Champagne Dresses\n"
+    },
+    {
+        "text_file": "30358.txt",
+        "image_file": "30358.jpg",
+        "text": "id: 30358\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Off White\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men Rodeo Off White T-shirt\n"
+    },
+    {
+        "text_file": "43085.txt",
+        "image_file": "43085.jpg",
+        "text": "id: 43085\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Women Yellow Polo Neck T-shirt\n"
+    },
+    {
+        "text_file": "28559.txt",
+        "image_file": "28559.jpg",
+        "text": "id: 28559\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Blow up Red T-shirt\n"
+    },
+    {
+        "text_file": "33279.txt",
+        "image_file": "33279.jpg",
+        "text": "id: 33279\ngender: Unisex\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Kids Unisex Blue Jeans\n"
+    },
+    {
+        "text_file": "27940.txt",
+        "image_file": "27940.jpg",
+        "text": "id: 27940\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Turquoise Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Turquoise Blue Magic Colour Jeans\n"
+    },
+    {
+        "text_file": "19385.txt",
+        "image_file": "19385.jpg",
+        "text": "id: 19385\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Crusoe Men Grey Xtreme Game Innerwear Vest\n"
+    },
+    {
+        "text_file": "36728.txt",
+        "image_file": "36728.jpg",
+        "text": "id: 36728\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Peach\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Girls Printed Peach Top\n"
+    },
+    {
+        "text_file": "16331.txt",
+        "image_file": "16331.jpg",
+        "text": "id: 16331\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Peter England Men Stripes Blue Polo T-Shirt\n"
+    },
+    {
+        "text_file": "32646.txt",
+        "image_file": "32646.jpg",
+        "text": "id: 32646\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Kids Boys Contemporary Athlete Green T-shirt\n"
+    },
+    {
+        "text_file": "21136.txt",
+        "image_file": "21136.jpg",
+        "text": "id: 21136\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: s.Oliver Women Stripes Navy Blue Sweater\n"
+    },
+    {
+        "text_file": "9549.txt",
+        "image_file": "9549.jpg",
+        "text": "id: 9549\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Green Polo Tshirts\n"
+    },
+    {
+        "text_file": "4940.txt",
+        "image_file": "4940.jpg",
+        "text": "id: 4940\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Karnel Jeans\n"
+    },
+    {
+        "text_file": "18750.txt",
+        "image_file": "18750.jpg",
+        "text": "id: 18750\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Olive\nseason: Fall\nusage: Casual\nproductDisplayName: Arrow Woman Hallie Olive Shirt\n"
+    },
+    {
+        "text_file": "27205.txt",
+        "image_file": "27205.jpg",
+        "text": "id: 27205\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Doodle Kids Boy Dark Blue Shorts\n"
+    },
+    {
+        "text_file": "37727.txt",
+        "image_file": "37727.jpg",
+        "text": "id: 37727\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: John Players Men Check Yellow Shirt\n"
+    },
+    {
+        "text_file": "11042.txt",
+        "image_file": "11042.jpg",
+        "text": "id: 11042\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Scullers Men Check Purple Shirts\n"
+    },
+    {
+        "text_file": "32438.txt",
+        "image_file": "32438.jpg",
+        "text": "id: 32438\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Men Tank Blue T-shirt\n"
+    },
+    {
+        "text_file": "8459.txt",
+        "image_file": "8459.jpg",
+        "text": "id: 8459\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women Jelaous Cais Green Top Green Tops\n"
+    },
+    {
+        "text_file": "57275.txt",
+        "image_file": "57275.jpg",
+        "text": "id: 57275\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Men Blue & White Check Shirt\n"
+    },
+    {
+        "text_file": "18975.txt",
+        "image_file": "18975.jpg",
+        "text": "id: 18975\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Originals Men Red Tshirt\n"
+    },
+    {
+        "text_file": "19339.txt",
+        "image_file": "19339.jpg",
+        "text": "id: 19339\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Solid Black Jacket\n"
+    },
+    {
+        "text_file": "31281.txt",
+        "image_file": "31281.jpg",
+        "text": "id: 31281\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Printed Grey T-shirt\n"
+    },
+    {
+        "text_file": "7546.txt",
+        "image_file": "7546.jpg",
+        "text": "id: 7546\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men's As Emb Sneaker T-Shirts\n"
+    },
+    {
+        "text_file": "24884.txt",
+        "image_file": "24884.jpg",
+        "text": "id: 24884\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Black Polo T-shirt\n"
+    },
+    {
+        "text_file": "11026.txt",
+        "image_file": "11026.jpg",
+        "text": "id: 11026\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Women Navy Blue Top\n"
+    },
+    {
+        "text_file": "45969.txt",
+        "image_file": "45969.jpg",
+        "text": "id: 45969\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Grey Melange\nseason: Summer\nusage: Casual\nproductDisplayName: Tokyo Talkies Women Grey Melange Printed Top\n"
+    },
+    {
+        "text_file": "19602.txt",
+        "image_file": "19602.jpg",
+        "text": "id: 19602\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Printed Grey Top\n"
+    },
+    {
+        "text_file": "6500.txt",
+        "image_file": "6500.jpg",
+        "text": "id: 6500\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Orange T-shirt\n"
+    },
+    {
+        "text_file": "43575.txt",
+        "image_file": "43575.jpg",
+        "text": "id: 43575\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Girls Knits White Top\n"
+    },
+    {
+        "text_file": "19617.txt",
+        "image_file": "19617.jpg",
+        "text": "id: 19617\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Solid Blue Top\n"
+    },
+    {
+        "text_file": "20203.txt",
+        "image_file": "20203.jpg",
+        "text": "id: 20203\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Flock Print Black Sweatshirt\n"
+    },
+    {
+        "text_file": "11269.txt",
+        "image_file": "11269.jpg",
+        "text": "id: 11269\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men Laced Crew Black T-Shirts\n"
+    },
+    {
+        "text_file": "9810.txt",
+        "image_file": "9810.jpg",
+        "text": "id: 9810\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Formal\nproductDisplayName: John Miller Men Purple Gingham Shirt\n"
+    },
+    {
+        "text_file": "59119.txt",
+        "image_file": "59119.jpg",
+        "text": "id: 59119\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Just Natural Men Black Jacket\n"
+    },
+    {
+        "text_file": "20297.txt",
+        "image_file": "20297.jpg",
+        "text": "id: 20297\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Inkfruit Men Printed Purple Tshirt\n"
+    },
+    {
+        "text_file": "9151.txt",
+        "image_file": "9151.jpg",
+        "text": "id: 9151\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women Checks Grey Tops\n"
+    },
+    {
+        "text_file": "2113.txt",
+        "image_file": "2113.jpg",
+        "text": "id: 2113\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Grey\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Women's Essential Cinder Grey Capris\n"
+    },
+    {
+        "text_file": "26955.txt",
+        "image_file": "26955.jpg",
+        "text": "id: 26955\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Black Top\n"
+    },
+    {
+        "text_file": "27848.txt",
+        "image_file": "27848.jpg",
+        "text": "id: 27848\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbasecolour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Scullers For Her Navy Blue T-shirt\n"
+    },
+    {
+        "text_file": "29655.txt",
+        "image_file": "29655.jpg",
+        "text": "id: 29655\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Summer\nusage: Formal\nproductDisplayName: Indigo Nation Men Grey Striped Shirt\n"
+    },
+    {
+        "text_file": "52400.txt",
+        "image_file": "52400.jpg",
+        "text": "id: 52400\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Nightdress\nbaseColour: Pink\nseason: Winter\nusage: Casual\nproductDisplayName: Red Rose Women Pink Nightdress\n"
+    },
+    {
+        "text_file": "10487.txt",
+        "image_file": "10487.jpg",
+        "text": "id: 10487\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Flying Machine Men Midrise Blue Jeans\n"
+    },
+    {
+        "text_file": "6196.txt",
+        "image_file": "6196.jpg",
+        "text": "id: 6196\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Lee Men's Black Photo Casual T-shirt\n"
+    },
+    {
+        "text_file": "34593.txt",
+        "image_file": "34593.jpg",
+        "text": "id: 34593\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Tonga Women Pink Printed Top\n"
+    },
+    {
+        "text_file": "16493.txt",
+        "image_file": "16493.jpg",
+        "text": "id: 16493\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Locomotive Men Solid Forest Green TShirt\n"
+    },
+    {
+        "text_file": "19667.txt",
+        "image_file": "19667.jpg",
+        "text": "id: 19667\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Lavender\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Solid Lavender Top\n"
+    },
+    {
+        "text_file": "3060.txt",
+        "image_file": "3060.jpg",
+        "text": "id: 3060\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Beige\nseason: Summer\nusage: Casual\nproductDisplayName: Tantra Men's Imagine Beige T-shirt\n"
+    },
+    {
+        "text_file": "50634.txt",
+        "image_file": "50634.jpg",
+        "text": "id: 50634\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: Black\nseason: Winter\nusage: Casual\nproductDisplayName: Chromozome Men Black Innerwear Vest\n"
+    },
+    {
+        "text_file": "42109.txt",
+        "image_file": "42109.jpg",
+        "text": "id: 42109\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Black T-shirt\n"
+    },
+    {
+        "text_file": "9550.txt",
+        "image_file": "9550.jpg",
+        "text": "id: 9550\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men As Explovise Black T-Shirts\n"
+    },
+    {
+        "text_file": "54089.txt",
+        "image_file": "54089.jpg",
+        "text": "id: 54089\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Mumbai Slang Women Purple Top\n"
+    },
+    {
+        "text_file": "47651.txt",
+        "image_file": "47651.jpg",
+        "text": "id: 47651\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Femella Women Grey Lace Dress\n"
+    },
+    {
+        "text_file": "3866.txt",
+        "image_file": "3866.jpg",
+        "text": "id: 3866\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Peach\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Men's Wild Spirit Striper Peach T-shirt\n"
+    },
+    {
+        "text_file": "56642.txt",
+        "image_file": "56642.jpg",
+        "text": "id: 56642\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Mumbai Slang Women Black Tunic\n"
+    },
+    {
+        "text_file": "5812.txt",
+        "image_file": "5812.jpg",
+        "text": "id: 5812\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Women's CBN Logo Black T-shirt\n"
+    },
+    {
+        "text_file": "8325.txt",
+        "image_file": "8325.jpg",
+        "text": "id: 8325\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbasecolour: Yellow\nseason: Fall\nusage: Casual\nproductDisplayName: Doodle Boy's Athletic 77 Dept Yellow Teen Kidswear\n"
+    },
+    {
+        "text_file": "2343.txt",
+        "image_file": "2343.jpg",
+        "text": "id: 2343\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Reebok Men Basil Green & Blue Polo T-shirt\n"
+    },
+    {
+        "text_file": "21446.txt",
+        "image_file": "21446.jpg",
+        "text": "id: 21446\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Winter\nusage: Casual\nproductDisplayName: Roxy Women Blue Printed T-shirt\n"
+    },
+    {
+        "text_file": "50666.txt",
+        "image_file": "50666.jpg",
+        "text": "id: 50666\ngender: Men\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Lounge Pants\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Chromozome Men Black Fashion Lounge Pants S-5145\n"
+    },
+    {
+        "text_file": "35451.txt",
+        "image_file": "35451.jpg",
+        "text": "id: 35451\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Doodle Girls Printed White Top\n"
+    },
+    {
+        "text_file": "52554.txt",
+        "image_file": "52554.jpg",
+        "text": "id: 52554\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Pepe Jeans Women Blue Jeans\n"
+    },
+    {
+        "text_file": "41401.txt",
+        "image_file": "41401.jpg",
+        "text": "id: 41401\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbasecolour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Women White Smocked Top\n"
+    },
+    {
+        "text_file": "22898.txt",
+        "image_file": "22898.jpg",
+        "text": "id: 22898\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Formal\nproductDisplayName: Mark Taylor Men Striped Blue Shirt\n"
+    },
+    {
+        "text_file": "38978.txt",
+        "image_file": "38978.jpg",
+        "text": "id: 38978\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Lavender\nseason: Fall\nusage: Formal\nproductDisplayName: Arrow Men Lavender Shirt\n"
+    },
+    {
+        "text_file": "7201.txt",
+        "image_file": "7201.jpg",
+        "text": "id: 7201\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Pink\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women White Pink Lady With The Hat Top\n"
+    },
+    {
+        "text_file": "53809.txt",
+        "image_file": "53809.jpg",
+        "text": "id: 53809\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Ayaany Women White Tunic\n"
+    },
+    {
+        "text_file": "2116.txt",
+        "image_file": "2116.jpg",
+        "text": "id: 2116\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Smooth Striped Track Pants\n"
+    },
+    {
+        "text_file": "26467.txt",
+        "image_file": "26467.jpg",
+        "text": "id: 26467\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Men Story Graphic Navy Blue T-shirt\n"
+    },
+    {
+        "text_file": "42640.txt",
+        "image_file": "42640.jpg",
+        "text": "id: 42640\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Kurtas\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: W Women Red Dress\n"
+    },
+    {
+        "text_file": "17623.txt",
+        "image_file": "17623.jpg",
+        "text": "id: 17623\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbasecolour: Grey\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Solid Grey Track Pant\n"
+    },
+    {
+        "text_file": "11279.txt",
+        "image_file": "11279.jpg",
+        "text": "id: 11279\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Blue Texas Jeans\n"
+    },
+    {
+        "text_file": "2283.txt",
+        "image_file": "2283.jpg",
+        "text": "id: 2283\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Spring\nusage: Sports\nproductDisplayName: Nike Men Poly Black T-shirt\n"
+    },
+    {
+        "text_file": "34021.txt",
+        "image_file": "34021.jpg",
+        "text": "id: 34021\ngender: Boys\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Printed Orange T-shirt\n"
+    },
+    {
+        "text_file": "9976.txt",
+        "image_file": "9976.jpg",
+        "text": "id: 9976\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men Manu Core Black Sweatshirts\n"
+    },
+    {
+        "text_file": "4214.txt",
+        "image_file": "4214.jpg",
+        "text": "id: 4214\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Disney Kids Girl's Yellow Summer Fun Fair Kidswear\n"
+    },
+    {
+        "text_file": "18738.txt",
+        "image_file": "18738.jpg",
+        "text": "id: 18738\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Olive\nseason: Fall\nusage: Casual\nproductDisplayName: Arrow Woman Yuli Olive Top\n"
+    },
+    {
+        "text_file": "12193.txt",
+        "image_file": "12193.jpg",
+        "text": "id: 12193\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Basics Men White Checked Shirt\n"
+    },
+    {
+        "text_file": "7560.txt",
+        "image_file": "7560.jpg",
+        "text": "id: 7560\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Grey\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Women's Be Strong Grey Track Pant\n"
+    },
+    {
+        "text_file": "10362.txt",
+        "image_file": "10362.jpg",
+        "text": "id: 10362\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Purple Polo T-shirt\n"
+    },
+    {
+        "text_file": "12611.txt",
+        "image_file": "12611.jpg",
+        "text": "id: 12611\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women Printed Green Tops\n"
+    },
+    {
+        "text_file": "10006.txt",
+        "image_file": "10006.jpg",
+        "text": "id: 10006\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men AS T90 Black Tshirts\n"
+    },
+    {
+        "text_file": "19641.txt",
+        "image_file": "19641.jpg",
+        "text": "id: 19641\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweatshirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Solid Black Sweatshirt\n"
+    },
+    {
+        "text_file": "50498.txt",
+        "image_file": "50498.jpg",
+        "text": "id: 50498\ngender: Men\nmasterCategory: Apparel\nsub: Innerwear\narticleType: Innerwear Vests\nbaseColour: Maroon\nseason: Winter\nusage: Casual\nproductDisplayName: Chromozome Men Maroon Innerwear Vest\n"
+    },
+    {
+        "text_file": "6958.txt",
+        "image_file": "6958.jpg",
+        "text": "id: 6958\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: s.Oliver Men's North Western Edge White T-shirt\n"
+    },
+    {
+        "text_file": "7525.txt",
+        "image_file": "7525.jpg",
+        "text": "id: 7525\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men's Round Neck Red T-Shirt\n"
+    },
+    {
+        "text_file": "26950.txt",
+        "image_file": "26950.jpg",
+        "text": "id: 26950\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Maroon\nseason: Summer\nusage: Casual\nproductDisplayName: Jealous 21 Women Printed Maroon T-shirt\n"
+    },
+    {
+        "text_file": "7359.txt",
+        "image_file": "7359.jpg",
+        "text": "id: 7359\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Tantra Men Purple T-shirt\n"
+    },
+    {
+        "text_file": "42106.txt",
+        "image_file": "42106.jpg",
+        "text": "id: 42106\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men White T-shirt\n"
+    },
+    {
+        "text_file": "50649.txt",
+        "image_file": "50649.jpg",
+        "text": "id: 50649\ngender: Men\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Lounge Pants\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Chromozome Men Grey Lounge Pants S-4801\n"
+    },
+    {
+        "text_file": "22589.txt",
+        "image_file": "22589.jpg",
+        "text": "id: 22589\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Navy Blue\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men Solid Navy Blue Shorts\n"
+    },
+    {
+        "text_file": "7009.txt",
+        "image_file": "7009.jpg",
+        "text": "id: 7009\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Summer\nusage: Casual\nproductDisplayName: Classic Polo Men's Red Polo With Stripe T-shirt\n"
+    },
+    {
+        "text_file": "34341.txt",
+        "image_file": "34341.jpg",
+        "text": "id: 34341\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men Feared Strom Drive Purple T-shirt\n"
+    },
+    {
+        "text_file": "20156.txt",
+        "image_file": "20156.jpg",
+        "text": "id: 20156\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Establish Navy Blue Shirt\n"
+    },
+    {
+        "text_file": "31644.txt",
+        "image_file": "31644.jpg",
+        "text": "id: 31644\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Summer\nusage: Formal\nproductDisplayName: Indigo Nation Men Black Shirt\n"
+    },
+    {
+        "text_file": "5295.txt",
+        "image_file": "5295.jpg",
+        "text": "id: 5295\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Pink\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Women's Ess Pink Polo T-shirt\n"
+    },
+    {
+        "text_file": "40406.txt",
+        "image_file": "40406.jpg",
+        "text": "id: 40406\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Tonga Women Black & Grey Top\n"
+    },
+    {
+        "text_file": "9249.txt",
+        "image_file": "9249.jpg",
+        "text": "id: 9249\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Cream\nseason: Fall\nusage: Formal\nproductDisplayName: Mark Taylor Men Solid Cream Shirts\n"
+    },
+    {
+        "text_file": "37628.txt",
+        "image_file": "37628.jpg",
+        "text": "id: 37628\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Off White\nseason: Summer\nusage: Casual\nproductDisplayName: Madagascar3 Girls Off White Printed T-Shirt\n"
+    },
+    {
+        "text_file": "10817.txt",
+        "image_file": "10817.jpg",
+        "text": "id: 10817\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Green\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Urban Raiser Green Shirts\n"
+    },
+    {
+        "text_file": "26116.txt",
+        "image_file": "26116.jpg",
+        "text": "id: 26116\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Formal\nproductDisplayName: John Miller Men Striped Blue Shirt\n"
+    },
+    {
+        "text_file": "32434.txt",
+        "image_file": "32434.jpg",
+        "text": "id: 32434\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Men Navy Blue Polo T-shirt\n"
+    },
+    {
+        "text_file": "40100.txt",
+        "image_file": "40100.jpg",
+        "text": "id: 40100\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Orange T-shirt\n"
+    },
+    {
+        "text_file": "48422.txt",
+        "image_file": "48422.jpg",
+        "text": "id: 48422\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: French Connection Men White Printed T-shirt\n"
+    },
+    {
+        "text_file": "26800.txt",
+        "image_file": "26800.jpg",
+        "text": "id: 26800\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Grey\nseason: Summer\nusage: Formal\nproductDisplayName: Arrow Men Grey Shirt\n"
+    },
+    {
+        "text_file": "53778.txt",
+        "image_file": "53778.jpg",
+        "text": "id: 53778\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Magenta\nseason: Summer\nusage: Casual\nproductDisplayName: Puma Women Magenta T-shirt\n"
+    },
+    {
+        "text_file": "20140.txt",
+        "image_file": "20140.jpg",
+        "text": "id: 20140\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Wrangler Men Check White Shirt\n"
+    },
+    {
+        "text_file": "25757.txt",
+        "image_file": "25757.jpg",
+        "text": "id: 25757\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Suspenders\nbaseColour: Red\nseason: Summer\nusage: Formal\nproductDisplayName: Lino Perros Men Red Suspenders\n"
+    },
+    {
+        "text_file": "52384.txt",
+        "image_file": "52384.jpg",
+        "text": "id: 52384\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Nightdress\nbaseColour: Pink\nseason: Winter\nusage: Casual\nproductDisplayName: Red Rose Women Pink Nightdress\n"
+    },
+    {
+        "text_file": "40376.txt",
+        "image_file": "40376.jpg",
+        "text": "id: 40376\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbasecolour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Tokyo Talkies Women Yellow Top\n"
+    },
+    {
+        "text_file": "20171.txt",
+        "image_file": "20171.jpg",
+        "text": "id: 20171\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Aoston Black Shirt\n"
+    },
+    {
+        "text_file": "1604.txt",
+        "image_file": "1604.jpg",
+        "text": "id: 1604\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Blue\nseason: Fall\nusage: Sports\nproductDisplayName: Reebok Track Pants Women Blue\n"
+    },
+    {
+        "text_file": "48473.txt",
+        "image_file": "48473.jpg",
+        "text": "id: 48473\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Blue\nseason: Winter\nusage: Casual\nproductDisplayName: French Connection Women Blue Dress\n"
+    },
+    {
+        "text_file": "18764.txt",
+        "image_file": "18764.jpg",
+        "text": "id: 18764\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Arrow Woman Ariella Purple Shirt\n"
+    },
+    {
+        "text_file": "5201.txt",
+        "image_file": "5201.jpg",
+        "text": "id: 5201\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Superman Men's Anger Moon Blue T-shirt\n"
+    },
+    {
+        "text_file": "14927.txt",
+        "image_file": "14927.jpg",
+        "text": "id: 14927\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Charcoal\nseason: Fall\nusage: Casual\nproductDisplayName: Mr. Men Men Spreading Happiness Charcoal Tshirts\n"
+    },
+    {
+        "text_file": "7204.txt",
+        "image_file": "7204.jpg",
+        "text": "id: 7204\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Purple\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women Shimmery Patch Purple Top\n"
+    },
+    {
+        "text_file": "37119.txt",
+        "image_file": "37119.jpg",
+        "text": "id: 37119\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Summer\nusage: Formal\nproductDisplayName: Wills Classic Men White Striped Shirt\n"
+    },
+    {
+        "text_file": "15997.txt",
+        "image_file": "15997.jpg",
+        "text": "id: 15997\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Formal\nproductDisplayName: Turtle Check Men White Shirt\n"
+    },
+    {
+        "text_file": "27265.txt",
+        "image_file": "27265.jpg",
+        "text": "id: 27265\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Teal\nseason: Summer\nusage: Casual\nproductDisplayName: Arrow Woman Striped Teal Top\n"
+    },
+    {
+        "text_file": "1584.txt",
+        "image_file": "1584.jpg",
+        "text": "id: 1584\ngender: Unisex\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Domyos Unisex Feather-light Jacket\n"
+    },
+    {
+        "text_file": "49630.txt",
+        "image_file": "49630.jpg",
+        "text": "id: 49630\ngender: Women\nmasterCategory: Apparel\nsub: Dress\narticleType: Dresses\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Mineral Blue Dress\n"
+    },
+    {
+        "text_file": "9470.txt",
+        "image_file": "9470.jpg",
+        "text": "id: 9470\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Formal\nproductDisplayName: John Miller Men Solid White White Shirts\n"
+    },
+    {
+        "text_file": "4974.txt",
+        "image_file": "4974.jpg",
+        "text": "id: 4974\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boy's Kangaroo Yellow Infant Kidswear\n"
+    },
+    {
+        "text_file": "11404.txt",
+        "image_file": "11404.jpg",
+        "text": "id: 11404\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Solid Black Shirts\n"
+    },
+    {
+        "text_file": "9639.txt",
+        "image_file": "9639.jpg",
+        "text": "id: 9639\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Indigo Nation Men Checks Blue Shirts\n"
+    },
+    {
+        "text_file": "33741.txt",
+        "image_file": "33741.jpg",
+        "text": "id: 33741\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: Vero Moda Women Multi Coloured Top\n"
+    },
+    {
+        "text_file": "22627.txt",
+        "image_file": "22627.jpg",
+        "text": "id: 22627\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: White\nseason: Fall\nusage: Sports\nproductDisplayName: Nike Men White Sweater\n"
+    },
+    {
+        "text_file": "20252.txt",
+        "image_file": "20252.jpg",
+        "text": "id: 20252\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Indigo Navy Tshirt\n"
+    },
+    {
+        "text_file": "31597.txt",
+        "image_file": "31597.jpg",
+        "text": "id: 31597\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Mark Taylor Men Printed Black T-shirt\n"
+    },
+    {
+        "text_file": "33082.txt",
+        "image_file": "33082.jpg",
+        "text": "id: 33082\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: U.S. Polo Assn. Denim Co. Men Green Striped T-Shirt\n"
+    },
+    {
+        "text_file": "15977.txt",
+        "image_file": "15977.jpg",
+        "text": "id: 15977\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbasecolour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Turtle Solid Men Red Shirt\n"
+    },
+    {
+        "text_file": "29688.txt",
+        "image_file": "29688.jpg",
+        "text": "id: 29688\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Beige\nseason: Summer\nusage: Casual\nproductDisplayName: Indigo Nation Men Check White And Khaki Shorts\n"
+    },
+    {
+        "text_file": "19616.txt",
+        "image_file": "19616.jpg",
+        "text": "id: 19616\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Women Solid Yellow Top\n"
+    },
+    {
+        "text_file": "24312.txt",
+        "image_file": "24312.jpg",
+        "text": "id: 24312\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Navy Blue\nseason: Fall\nusage: Casual\nproductDisplayName: ADIDAS Men Navy Blue Shorts\n"
+    },
+    {
+        "text_file": "40051.txt",
+        "image_file": "40051.jpg",
+        "text": "id: 40051\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Navy Blue\nseason: Fall\nusage: Sports\nproductDisplayName: ADIDAS Men Navy Messi Track Jacket\n"
+    },
+    {
+        "text_file": "22639.txt",
+        "image_file": "22639.jpg",
+        "text": "id: 22639\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: Nike Men Printed Orange T-shirt\n"
+    },
+    {
+        "text_file": "22481.txt",
+        "image_file": "22481.jpg",
+        "text": "id: 22481\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Summer\nusage: Casual\nproductDisplayName: Timberland Men Green Linear Logo T-Shirt\n"
+    },
+    {
+        "text_file": "53823.txt",
+        "image_file": "53823.jpg",
+        "text": "id: 53823\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Ayaanay Women White Printed Tunic\n"
+    },
+    {
+        "text_file": "19999.txt",
+        "image_file": "19999.jpg",
+        "text": "id: 19999\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: United Colors of Benetton Men Solid Black TShirt\n"
+    },
+    {
+        "text_file": "2180.txt",
+        "image_file": "2180.jpg",
+        "text": "id: 2180\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Orange\nseason: Summer\nusage: Casual\nproductDisplayName: Probase Mens Probase Orange Stripe Polo tee T-shirt\n"
+    },
+    {
+        "text_file": "13221.txt",
+        "image_file": "13221.jpg",
+        "text": "id: 13221\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Palm Tree Kids Boys Printed Blue Tshirts\n"
+    },
+    {
+        "text_file": "10646.txt",
+        "image_file": "10646.jpg",
+        "text": "id: 10646\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Doodle Boy Athlethic Red Tshirts\n"
+    },
+    {
+        "text_file": "14746.txt",
+        "image_file": "14746.jpg",
+        "text": "id: 14746\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Fall\nusage: Formal\nproductDisplayName: Arrow Men Stripes White Shirts\n"
+    },
+    {
+        "text_file": "40084.txt",
+        "image_file": "40084.jpg",
+        "text": "id: 40084\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Shorts\nbaseColour: Navy Blue\nseason: Winter\nusage: Casual\nproductDisplayName: ADIDAS Men Navy Blue Shorts\n"
+    },
+    {
+        "text_file": "3792.txt",
+        "image_file": "3792.jpg",
+        "text": "id: 3792\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Basics Men Navy & White Striped Polo T-shirt\n"
+    },
+    {
+        "text_file": "40926.txt",
+        "image_file": "40926.jpg",
+        "text": "id: 40926\ngender: Boys\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Gini and Jony Boys Comics Blue Jeans\n"
+    },
+    {
+        "text_file": "42112.txt",
+        "image_file": "42112.jpg",
+        "text": "id: 42112\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Grey T-Shirt\n"
+    },
+    {
+        "text_file": "10873.txt",
+        "image_file": "10873.jpg",
+        "text": "id: 10873\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Wrangler Men Wrangler Station Grey T-Shirts\n"
+    },
+    {
+        "text_file": "14679.txt",
+        "image_file": "14679.jpg",
+        "text": "id: 14679\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Basics Men Grey Striped Polo T-shirt\n"
+    },
+    {
+        "text_file": "5559.txt",
+        "image_file": "5559.jpg",
+        "text": "id: 5559\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Jackets\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Reebok Men Reversible Blue & Yellow Jacket\n"
+    },
+    {
+        "text_file": "37613.txt",
+        "image_file": "37613.jpg",
+        "text": "id: 37613\ngender: Girls\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Purple\nseason: Summer\nusage: Casual\nproductDisplayName: Madagascar3 Girls Purple Printed T-Shirt\n"
+    },
+    {
+        "text_file": "13963.txt",
+        "image_file": "13963.jpg",
+        "text": "id: 13963\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: White\nseason: Summer\nusage: Formal\nproductDisplayName: John Miller Men Stripes White Shirts\n"
+    },
+    {
+        "text_file": "37787.txt",
+        "image_file": "37787.jpg",
+        "text": "id: 37787\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: John Players Men Blue Striped Shirt\n"
+    },
+    {
+        "text_file": "10683.txt",
+        "image_file": "10683.jpg",
+        "text": "id: 10683\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Doodle Boy Athlethic Blue Tshirts\n"
+    },
+    {
+        "text_file": "52451.txt",
+        "image_file": "52451.jpg",
+        "text": "id: 52451\ngender: Women\nmasterCategory: Apparel\nsub: Loungewear and Nightwear\narticleType: Nightdress\nbaseColour: Pink\nseason: Winter\nusage: Casual\nproductDisplayName: Red Rose Pink Nightdress\n"
+    },
+    {
+        "text_file": "8012.txt",
+        "image_file": "8012.jpg",
+        "text": "id: 8012\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Green\nseason: Fall\nusage: Sports\nproductDisplayName: Fila Men's Round Neck Green Black T-shirt\n"
+    },
+    {
+        "text_file": "7796.txt",
+        "image_file": "7796.jpg",
+        "text": "id: 7796\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Grey\nseason: Fall\nusage: Casual\nproductDisplayName: Proline Men Grey Polo T-shirt\n"
+    },
+    {
+        "text_file": "13827.txt",
+        "image_file": "13827.jpg",
+        "text": "id: 13827\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Sweaters\nbaseColour: Black\nseason: Fall\nusage: Casual\nproductDisplayName: Indigo Nation Men Solid Black Sweaters\n"
+    },
+    {
+        "text_file": "27646.txt",
+        "image_file": "27646.jpg",
+        "text": "id: 27646\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Che Guevara Men Printed Black T-shirt\n"
+    },
+    {
+        "text_file": "7199.txt",
+        "image_file": "7199.jpg",
+        "text": "id: 7199\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: White\nseason: Fall\nusage: Casual\nproductDisplayName: Jealous 21 Women White Knit With Face Printed Top\n"
+    },
+    {
+        "text_file": "24273.txt",
+        "image_file": "24273.jpg",
+        "text": "id: 24273\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Navy Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Quiksilver Men Navy Blue Basic T-shirt\n"
+    },
+    {
+        "text_file": "30330.txt",
+        "image_file": "30330.jpg",
+        "text": "id: 30330\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men Under Medicated Black T-shirt\n"
+    },
+    {
+        "text_file": "11989.txt",
+        "image_file": "11989.jpg",
+        "text": "id: 11989\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: Classic Polo Men Solid Blue Tshirts\n"
+    },
+    {
+        "text_file": "30357.txt",
+        "image_file": "30357.jpg",
+        "text": "id: 30357\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Off White\nseason: Summer\nusage: Casual\nproductDisplayName: Myntra Men Rare Breed Off White T-shirt\n"
+    },
+    {
+        "text_file": "56828.txt",
+        "image_file": "56828.jpg",
+        "text": "id: 56828\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Fall\nusage: Casual\nproductDisplayName: John Players Men Blue Slim Fit Jeans\n"
+    },
+    {
+        "text_file": "32568.txt",
+        "image_file": "32568.jpg",
+        "text": "id: 32568\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tops\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: ONLY Women Black Top\n"
+    },
+    {
+        "text_file": "4767.txt",
+        "image_file": "4767.jpg",
+        "text": "id: 4767\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Sports\nproductDisplayName: ADIDAS Men Peach Polo T-shirt\n"
+    },
+    {
+        "text_file": "32414.txt",
+        "image_file": "32414.jpg",
+        "text": "id: 32414\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: ADIDAS Men Comic White T-shirt\n"
+    },
+    {
+        "text_file": "18224.txt",
+        "image_file": "18224.jpg",
+        "text": "id: 18224\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Manchester United Men Printed Red Tshirt\n"
+    },
+    {
+        "text_file": "33957.txt",
+        "image_file": "33957.jpg",
+        "text": "id: 33957\ngender: Women\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Leggings\nbaseColour: Black\nseason: Spring\nusage: Casual\nproductDisplayName: Femella Women Black Leggings\n"
+    },
+    {
+        "text_file": "41796.txt",
+        "image_file": "41796.jpg",
+        "text": "id: 41796\ngender: Women\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tunics\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Remanika Women Printed Blue Tunic\n"
+    },
+    {
+        "text_file": "18915.txt",
+        "image_file": "18915.jpg",
+        "text": "id: 18915\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Shirts\nbaseColour: Red\nseason: Fall\nusage: Casual\nproductDisplayName: Levis Men Work Western Red Shirt\n"
+    },
+    {
+        "text_file": "51476.txt",
+        "image_file": "51476.jpg",
+        "text": "id: 51476\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Blue\nseason: Summer\nusage: Casual\nproductDisplayName: Denizen Men Blue Jeans\n"
+    },
+    {
+        "text_file": "46747.txt",
+        "image_file": "46747.jpg",
+        "text": "id: 46747\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Track Pants\nbaseColour: Black\nseason: Summer\nusage: Sports\nproductDisplayName: Nike Men Black Track Pants\n"
+    },
+    {
+        "text_file": "33601.txt",
+        "image_file": "33601.jpg",
+        "text": "id: 33601\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: White\nseason: Summer\nusage: Casual\nproductDisplayName: Arrow Men Striped White T-shirt\n"
+    },
+    {
+        "text_file": "21583.txt",
+        "image_file": "21583.jpg",
+        "text": "id: 21583\ngender: Men\nmasterCategory: Apparel\nsub: Bottomwear\narticleType: Jeans\nbaseColour: Black\nseason: Summer\nusage: Casual\nproductDisplayName: Locomotive Men Washed Black Jeans\n"
+    },
+    {
+        "text_file": "12202.txt",
+        "image_file": "12202.jpg",
+        "text": "id: 12202\ngender: Men\nmasterCategory: Apparel\nsub: Topwear\narticleType: Tshirts\nbaseColour: Yellow\nseason: Summer\nusage: Casual\nproductDisplayName: Basics Men Yellow Polo T-shirt\n"
+    }
+]
