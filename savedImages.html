@@ -16,18 +16,17 @@
         const savedImages = JSON.parse(localStorage.getItem('savedImages')) || [];
         const container = document.getElementById('saved-images-container');
 
-        savedImages.forEach((entry, index) => {
+        savedImages.forEach((entry) => {
             const imgContainer = document.createElement('div');
             const img = document.createElement('img');
-            img.src = entry.src;
+            img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
             img.alt = 'Saved Image';
             img.style.width = '200px';
-
             imgContainer.appendChild(img);
 
             const button = document.createElement('button');
             button.innerText = 'Clothing Attributes';
-            button.onclick = () => displayAttributes(entry.attributes, imgContainer);
+            button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer); // Ensure attributes object is not undefined
             imgContainer.appendChild(button);
 
             container.appendChild(imgContainer);
@@ -38,15 +37,19 @@
             if (!attributesBox) {
                 attributesBox = document.createElement('div');
                 attributesBox.classList.add('attributes-box');
-                attributesBox.innerHTML = `
-                    <strong>Attributes:</strong><br>
-                    gender: ${attributes.gender}<br>
-                    subcategory: ${attributes.subcategory}<br>
-                    articleType: ${attributes.articleType}<br>
-                    baseColour: ${attributes.baseColour}<br>
-                    season: ${attributes.season}<br>
-                    usage: ${attributes.usage}
-                `;
+                
+                if (attributes) {
+                    attributesBox.innerHTML = `
+                        <strong>Attributes:</strong><br>
+                        gender: ${attributes.gender || 'N/A'}<br>
+                        subcategory: ${attributes.subcategory || 'N/A'}<br>
+                        articleType: ${attributes.articleType || 'N/A'}<br>
+                        baseColour: ${attributes.baseColour || 'N/A'}<br>
+                        season: ${attributes.season || 'N/A'}<br>
+                        usage: ${attributes.usage || 'N/A'}
+                    `;
+                }
+
                 imgContainer.appendChild(attributesBox);
             } else {
                 attributesBox.style.display = attributesBox.style.display === 'none' ? 'block' : 'none';
@@ -55,6 +58,7 @@
     </script>
 </body>
 </html> -->
+
 
 <!DOCTYPE html>
 <html lang="en">

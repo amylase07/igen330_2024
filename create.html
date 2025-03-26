@@ -19,16 +19,20 @@
         <h2>Please select occasion to create outfits:</h2>
         <form id="occasionForm">
             <label>
-                <input type="radio" name="occasion" value="formal" onchange="checkSelection()"> Formal
+                <input type="radio" name="occasion" value="formal"> Formal
             </label>
             <label>
-                <input type="radio" name="occasion" value="social" onchange="checkSelection()"> Social
+                <input type="radio" name="occasion" value="social"> Social
             </label>
             <label>
-                <input type="radio" name="occasion" value="casual" onchange="checkSelection()"> Casual
+                <input type="radio" name="occasion" value="casual"> Casual
             </label>
             <label>
-                <input type="radio" name="occasion" value="sporty" onchange="checkSelection()"> Sporty
+                <input type="radio" name="occasion" value="sporty"> Sporty
+                <- onchange="checkSelection()
+onchange="checkSelection()
+onchange="checkSelection()
+onchange="checkSelection() ->
             </label>
             <button type="button" id="create-outfit-button" onclick="createOutfits()" disabled>Create outfits for this occasion</button>
         </form>
@@ -46,7 +50,6 @@
     </div>
 </body>
 </html> -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -79,10 +82,6 @@
             </label>
             <label>
                 <input type="radio" name="occasion" value="sporty"> Sporty
-                <!-- onchange="checkSelection()
-onchange="checkSelection()
-onchange="checkSelection()
-onchange="checkSelection() -->
             </label>
             <button type="button" id="create-outfit-button" onclick="createOutfits()" disabled>Create outfits for this occasion</button>
         </form>

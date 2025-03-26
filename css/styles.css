@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -14,8 +14,8 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Allow vertical scrolling */
-    max-height: calc(100vh - 40px); /* Prevent content from overflowing */
+    overflow-y: auto; / Allow vertical scrolling /
+    max-height: calc(100vh - 40px); / Prevent content from overflowing /
 }
 
 button {
@@ -35,6 +35,74 @@ button {
 }
 
 #carousel img {
+    width: 300px; / Adjust the size as needed /
+    height: auto;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Black background */
+    color: #E0E0E0; /* Light text color */
+}
+
+.container {
+    text-align: center;
+    background-color: #737373; /* #1a1a1a; /* Dark gray for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+    overflow-y: auto; /* Allow vertical scrolling */
+    max-height: calc(100vh - 40px); /* Prevent content from overflowing */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFFFFF; /* Button text color */
+    background-color: #007BFF; /* Cool blue for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#camera-status {
+    margin-top: 20px;
+    color: #E0E0E0; /* Same light text color */
+}
+
+.carousel-inner {
+    position: relative;
+    margin: 20px 0;
+}
+
+#carousel img {
     width: 300px; /* Adjust the size as needed */
     height: auto;
 }
+
+.attributes-box {
+    background-color: #2a2a2a; /* Darker background for attribute boxes */
+    border: 1px solid #444; /* Slightly lighter border */
+    padding: 10px;
+    color: #ffffff; /* White text for attributes */
+}
+
+button:disabled {
+    background-color: #d3d3d3; /* Light grey background for disabled state */
+    color: #a9a9a9;            /* Dark grey text for disabled state */
+    cursor: not-allowed;       /* Change cursor when mouse hovers over disabled button */
+    opacity: 0.5;              /* Optionally reduce opacity for visual effect */
+}
+
+/* Add any additional styles needed here */
