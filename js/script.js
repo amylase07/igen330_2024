@@ -259,20 +259,95 @@ function checkSelection(event) {
     createOutfitButton.disabled = currentlySelected === null;
 }
 
+// function displayAttributes() {
+//     const attributes = attributesArray[currentIndex];
+//     const attributesBox = document.getElementById('attributes-box');
+//     attributesBox.innerHTML = `
+//         <div style="border: 1px solid #ccc; padding: 10px; position: relative;">
+//             <strong>Attributes:</strong><br>
+//             <div>gender: <span>${attributes.gender}</span></div>
+//             <div>subcategory: <span>${attributes.subcategory}</span></div>
+//             <div>articleType: <span>${attributes.articleType}</span></div>
+//             <div>baseColour: <span>${attributes.baseColour}</span></div>
+//             <div>season: <span>${attributes.season}</span></div>
+//             <div>usage: <span>${attributes.usage}</span></div>
+//         </div>
+//     `;
+// }
+
 function displayAttributes() {
     const attributes = attributesArray[currentIndex];
     const attributesBox = document.getElementById('attributes-box');
+    
     attributesBox.innerHTML = `
         <div style="border: 1px solid #ccc; padding: 10px; position: relative;">
+            <button id="edit-attrib" onclick="editAttributes()">Edit</button>
+            <button id="save-attrib" style="display:none;" onclick="saveAttributes()">Save</button>
             <strong>Attributes:</strong><br>
-            <div>gender: <span>${attributes.gender}</span></div>
-            <div>subcategory: <span>${attributes.subcategory}</span></div>
-            <div>articleType: <span>${attributes.articleType}</span></div>
-            <div>baseColour: <span>${attributes.baseColour}</span></div>
-            <div>season: <span>${attributes.season}</span></div>
-            <div>usage: <span>${attributes.usage}</span></div>
+            <div>Gender: <span class="attribute-span">${attributes.gender}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.genders.map(g => `<option value="${g}" ${attributes.gender === g ? 'selected' : ''}>${g}</option>`).join('')}</select>
+            </div>
+            <div>Subcategory: <span class="attribute-span">${attributes.subcategory}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.subcategories.map(s => `<option value="${s}" ${attributes.subcategory === s ? 'selected' : ''}>${s}</option>`).join('')}</select>
+            </div>
+            <div>Article Type: <span class="attribute-span">${attributes.articleType}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.articleTypes.map(a => `<option value="${a}" ${attributes.articleType === a ? 'selected' : ''}>${a}</option>`).join('')}</select>
+            </div>
+            <div>Base Colour: <span class="attribute-span">${attributes.baseColour}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.baseColours.map(b => `<option value="${b}" ${attributes.baseColour === b ? 'selected' : ''}>${b}</option>`).join('')}</select>
+            </div>
+            <div>Season: <span class="attribute-span">${attributes.season}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.seasons.map(se => `<option value="${se}" ${attributes.season === se ? 'selected' : ''}>${se}</option>`).join('')}</select>
+            </div>
+            <div>Usage: <span class="attribute-span">${attributes.usage}</span>
+                <select class="attribute-select" style="display:none;">${attributesData.usages.map(u => `<option value="${u}" ${attributes.usage === u ? 'selected' : ''}>${u}</option>`).join('')}</select>
+            </div>
         </div>
     `;
+}
+
+// Function to switch to edit mode
+function editAttributes() {
+    document.getElementById('edit-attrib').style.display = 'none';
+    document.getElementById('save-attrib').style.display = 'block';
+
+    const selects = document.querySelectorAll('.attribute-select');
+    selects.forEach(select => {
+        select.style.display = 'block';
+    });
+
+    const spans = document.querySelectorAll('.attribute-span');
+    spans.forEach(span => {
+        span.style.display = 'none';
+    });
+}
+
+// Function to save changes
+function saveAttributes() {
+    const spans = document.querySelectorAll('.attribute-span');
+    const selects = document.querySelectorAll('.attribute-select');
+
+    spans.forEach((span, index) => {
+        const selectedValue = selects[index].value;
+        span.textContent = selectedValue; // Update displayed attribute
+        span.style.display = 'inline'; // Show updated value
+        selects[index].style.display = 'none'; // Hide dropdown
+    });
+
+    document.getElementById('edit-attrib').style.display = 'block';
+    document.getElementById('save-attrib').style.display = 'none';
+
+    // Save the updated attributes in attributesArray for persistence
+    const updatedAttributes = {
+        gender: spans[0].textContent,
+        subcategory: spans[1].textContent,
+        articleType: spans[2].textContent,
+        baseColour: spans[3].textContent,
+        season: spans[4].textContent,
+        usage: spans[5].textContent
+    };
+
+    attributesArray[currentIndex] = updatedAttributes; // Update the edited attributes in the array
 }
 
 // Initial function calls
