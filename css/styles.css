@@ -51,6 +51,7 @@ body {
 }
 
 .container {
+    position: relative; /* This makes the container the reference point for absolutely positioned children */
     text-align: center;
     background-color: #737373; /* #1a1a1a; /* Dark gray for container */
     padding: 20px;
@@ -58,6 +59,11 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
     overflow-y: auto; /* Allow vertical scrolling */
     max-height: calc(100vh - 40px); /* Prevent content from overflowing */
+}
+
+h1 {
+    margin-top: 60px; /* Add sufficient space to avoid overlap with the back button */
+    /* You can also add other styles if needed */
 }
 
 button {
@@ -103,6 +109,26 @@ button:disabled {
     color: #a9a9a9;            /* Dark grey text for disabled state */
     cursor: not-allowed;       /* Change cursor when mouse hovers over disabled button */
     opacity: 0.5;              /* Optionally reduce opacity for visual effect */
+}
+
+/*the back button currently for savedimage*/
+.back-button {
+    position: absolute; /* Positioning it within the container */
+    top: 20px; /* Distance from the top of the container */
+    left: 20px; /* Distance from the left of the container */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFFFFF; /* Text color */
+    background-color: #007BFF; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1; /* Ensures the button is above other content */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Button color on hover */
 }
 
 /* Add any additional styles needed here */

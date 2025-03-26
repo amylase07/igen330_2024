@@ -16,28 +16,49 @@
         const savedImages = JSON.parse(localStorage.getItem('savedImages')) || [];
         const container = document.getElementById('saved-images-container');
 
-        savedImages.forEach((entry) => {
-            const imgContainer = document.createElement('div');
-            const img = document.createElement('img');
-            img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
-            img.alt = 'Saved Image';
-            img.style.width = '200px';
-            imgContainer.appendChild(img);
+        function renderImages() {
+            container.innerHTML = ''; // Clear the container before rendering
+            savedImages.forEach((entry, index) => {
+                const imgContainer = document.createElement('div');
+                const img = document.createElement('img');
+                img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
+                img.alt = 'Saved Image';
+                img.style.width = '200px';
+                imgContainer.appendChild(img);
 
-            const button = document.createElement('button');
-            button.innerText = 'Clothing Attributes';
-            button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer); // Ensure attributes object is not undefined
-            imgContainer.appendChild(button);
+                const button = document.createElement('button');
+                button.innerText = 'Clothing Attributes';
+                button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer);
+                imgContainer.appendChild(button);
 
-            container.appendChild(imgContainer);
-        });
+                // Create delete button
+                const deleteButton = document.createElement('button');
+                deleteButton.innerText = 'Delete';
+                deleteButton.onclick = () => confirmDeletion(index);
+                imgContainer.appendChild(deleteButton);
+
+                container.appendChild(imgContainer);
+            });
+        }
+
+        function confirmDeletion(index) {
+            if (confirm("Are you sure you want to permanently delete this image?")) {
+                deleteImage(index);
+            }
+        }
+
+        function deleteImage(index) {
+            savedImages.splice(index, 1); // Remove the image from the array
+            localStorage.setItem('savedImages', JSON.stringify(savedImages)); // Update local storage
+            renderImages(); // Re-render the images
+        }
 
         function displayAttributes(attributes, imgContainer) {
             let attributesBox = imgContainer.querySelector('.attributes-box');
             if (!attributesBox) {
                 attributesBox = document.createElement('div');
                 attributesBox.classList.add('attributes-box');
-                
+
                 if (attributes) {
                     attributesBox.innerHTML = `
                         <strong>Attributes:</strong><br>
@@ -55,6 +76,9 @@
                 attributesBox.style.display = attributesBox.style.display === 'none' ? 'block' : 'none';
             }
         }
+
+        // Initial rendering of images
+        renderImages();
     </script>
 </body>
 </html> -->
@@ -70,36 +94,57 @@
 </head>
 <body>
     <div class="container">
+        <button onclick="location.href='index.html'" class="back-button">Back to Home</button>
         <h1>Saved Images</h1>
         <div id="saved-images-container"></div>
-        <button onclick="location.href='index.html'">Back to Home</button>
     </div>
     <script>
         const savedImages = JSON.parse(localStorage.getItem('savedImages')) || [];
         const container = document.getElementById('saved-images-container');
 
-        savedImages.forEach((entry) => {
-            const imgContainer = document.createElement('div');
-            const img = document.createElement('img');
-            img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
-            img.alt = 'Saved Image';
-            img.style.width = '200px';
-            imgContainer.appendChild(img);
+        function renderImages() {
+            container.innerHTML = ''; // Clear the container before rendering
+            savedImages.forEach((entry, index) => {
+                const imgContainer = document.createElement('div');
+                const img = document.createElement('img');
+                img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
+                img.alt = 'Saved Image';
+                img.style.width = '200px';
+                imgContainer.appendChild(img);
 
-            const button = document.createElement('button');
-            button.innerText = 'Clothing Attributes';
-            button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer); // Ensure attributes object is not undefined
-            imgContainer.appendChild(button);
+                const button = document.createElement('button');
+                button.innerText = 'Clothing Attributes';
+                button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer);
+                imgContainer.appendChild(button);
 
-            container.appendChild(imgContainer);
-        });
+                // Create delete button
+                const deleteButton = document.createElement('button');
+                deleteButton.innerText = 'Delete';
+                deleteButton.onclick = () => confirmDeletion(index);
+                imgContainer.appendChild(deleteButton);
+
+                container.appendChild(imgContainer);
+            });
+        }
+
+        function confirmDeletion(index) {
+            if (confirm("Are you sure you want to permanently delete this image?")) {
+                deleteImage(index);
+            }
+        }
+
+        function deleteImage(index) {
+            savedImages.splice(index, 1); // Remove the image from the array
+            localStorage.setItem('savedImages', JSON.stringify(savedImages)); // Update local storage
+            renderImages(); // Re-render the images
+        }
 
         function displayAttributes(attributes, imgContainer) {
             let attributesBox = imgContainer.querySelector('.attributes-box');
             if (!attributesBox) {
                 attributesBox = document.createElement('div');
                 attributesBox.classList.add('attributes-box');
-                
+
                 if (attributes) {
                     attributesBox.innerHTML = `
                         <strong>Attributes:</strong><br>
@@ -117,6 +162,9 @@
                 attributesBox.style.display = attributesBox.style.display === 'none' ? 'block' : 'none';
             }
         }
+
+        // Initial rendering of images
+        renderImages();
     </script>
 </body>
 </html>
