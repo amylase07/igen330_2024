@@ -60,6 +60,25 @@ onchange="checkSelection() ->
     <script src="js/attributes.js"></script>
     <script src="js/script.js" defer></script>
     <title>Create Outfits</title>
+    <style>
+        form {
+            display: flex; /* Align items in a row */
+            gap: 20px; /* Space between radio buttons */
+            align-items: center; /* Center align vertically */
+        }
+
+        input[type="radio"] {
+            transform: scale(3); /* Increase scale for larger radio buttons */
+            margin-right: 15px; /* Space between radio button and label text */
+            cursor: pointer; /* Show pointer on hover */
+        }
+
+        label {
+            display: flex; /* Align items to center vertically */
+            align-items: center; /* Align label content vertically */
+            font-size: 18px; /* Adjust font size as needed */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
