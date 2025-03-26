@@ -1,0 +1,24 @@
+[
+  {
+    "image": "imageRepo/tempImage1.jpg",
+    "attributes": {
+      "gender": "Men",
+      "subcategory": "Topwear",
+      "articleType": "Tunics",
+      "baseColour": "Black",
+      "season": "Summer",
+      "usage": "Party"
+    }
+  },
+  {
+    "image": "imageRepo/tempImage6.jpg",
+    "attributes": {
+      "gender": "Girls",
+      "subcategory": "Dress",
+      "articleType": "Skirts",
+      "baseColour": "Olive",
+      "season": "Summer",
+      "usage": "Travel"
+    }
+  }
+]

@@ -185,6 +185,7 @@ function displayDateTime() {
 }
 
 // Function to create outfits based on selected occasion
+// Function to create outfits based on selected occasion
 function createOutfits() {
     carousel.style.display = 'block';
     currentIndex = 0;
@@ -192,17 +193,40 @@ function createOutfits() {
     // Generate random attributes for each image
     attributesArray = images.map(() => generateRandomAttributes());
 
-    // debug for outfit attributes
-    console.log("Final attributes array:",attributesArray);
+    // Debugging log for outfit attributes
+    console.log("Final attributes array:", attributesArray);
 
     updateCarousel();
 
-    // Create save button dynamically
+    // Create a save button dynamically
     buttonsDiv.innerHTML = ''; // Clear existing buttons
     const button = document.createElement('button');
     button.innerText = 'Save';
-    button.onclick = () => {
-        alert('Successfully saved outfit');
+    button.onclick = async () => {
+        const currentImage = images[currentIndex]; // Path to the currently displayed image
+        const currentAttributes = attributesArray[currentIndex]; // Corresponding attributes
+
+        try {
+            const response = await fetch('/save_outfit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    image: currentImage,
+                    attributes: currentAttributes
+                })
+            });
+
+            if (response.ok) {
+                alert('Successfully saved outfit');
+            } else {
+                alert('Failed to save outfit');
+            }
+        } catch (error) {
+            console.error('Error saving outfit:', error);
+            alert('An error occurred while saving the outfit.');
+        }
     };
     buttonsDiv.appendChild(button);
 

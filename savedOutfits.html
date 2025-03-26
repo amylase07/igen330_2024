@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Saved Outfits</title>
+</head>
+<body>
+    <div class="container">
+        <button onclick="location.href='index.html'" class="back-button">Back to Home</button>
+        <h1>Saved Outfits</h1>
+        <div id="saved-outfits-container"></div>
+    </div>
+    <script>
+        async function fetchSavedOutfits() {
+            const response = await fetch('/get_outfits');
+            const outfits = await response.json();
+            const container = document.getElementById('saved-outfits-container');
+
+            outfits.forEach(outfit => {
+                const imgContainer = document.createElement('div');
+                const img = document.createElement('img');
+                img.src = outfit.image; // Adjust this based on how you store image paths
+                img.style.width = '200px';
+
+                const attributesBox = document.createElement('div');
+                attributesBox.innerHTML = `
+                    <strong>Attributes:</strong><br>
+                    Gender: ${outfit.attributes.gender || 'N/A'}<br>
+                    Subcategory: ${outfit.attributes.subcategory || 'N/A'}<br>
+                    Article Type: ${outfit.attributes.articleType || 'N/A'}<br>
+                    Base Colour: ${outfit.attributes.baseColour || 'N/A'}<br>
+                    Season: ${outfit.attributes.season || 'N/A'}<br>
+                    Usage: ${outfit.attributes.usage || 'N/A'}<br>
+                `;
+
+                imgContainer.appendChild(img);
+                imgContainer.appendChild(attributesBox);
+                container.appendChild(imgContainer);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchSavedOutfits);
+    </script>
+</body>
+</html>
