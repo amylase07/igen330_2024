@@ -208,52 +208,70 @@ function extractAttributes() {
 function displayEditableAttributes(attributes) {
     const attributesBox = document.getElementById('attributes-box');
     attributesBox.innerHTML = `
-        <div style="border: 1px solid #ccc; padding: 10px; position: relative;">
+        <div style="border: 1px solid #ccc; padding: 10px; position: relative; margin-top: 20px;">
             <button id="edit-attrib" onclick="editAttributes()">Edit</button>
             <button id="save-attrib" style="display:none;" onclick="saveAttributes()">Save</button>
-            <strong>Attributes:</strong><br>
-            <div>
-                gender: 
-                <span class="gender-select-span">${attributes.gender}</span>
-                <select class="gender-select" style="display:none;">
-                    ${attributesData.genders.map(g => `<option value="${g}">${g}</option>`).join('')}
-                </select>
-            </div>
-            <div>
-                subcategory: 
-                <span class="subcategory-select-span">${attributes.subcategory}</span>
-                <select class="subcategory-select" style="display:none;">
-                    ${attributesData.subcategories.map(s => `<option value="${s}">${s}</option>`).join('')}
-                </select>
-            </div>
-            <div>
-                articleType: 
-                <span class="articleType-select-span">${attributes.articleType}</span>
-                <select class="articleType-select" style="display:none;">
-                    ${attributesData.articleTypes.map(a => `<option value="${a}">${a}</option>`).join('')}
-                </select>
-            </div>
-            <div>
-                baseColour: 
-                <span class="baseColour-select-span">${attributes.baseColour}</span>
-                <select class="baseColour-select" style="display:none;">
-                    ${attributesData.baseColours.map(b => `<option value="${b}">${b}</option>`).join('')}
-                </select>
-            </div>
-            <div>
-                season: 
-                <span class="season-select-span">${attributes.season}</span>
-                <select class="season-select" style="display:none;">
-                    ${attributesData.seasons.map(se => `<option value="${se}">${se}</option>`).join('')}
-                </select>
-            </div>
-            <div>
-                usage: 
-                <span class="usage-select-span">${attributes.usage}</span>
-                <select class="usage-select" style="display:none;">
-                    ${attributesData.usages.map(u => `<option value="${u}">${u}</option>`).join('')}
-                </select>
-            </div>
+            <strong>Attributes:</strong>
+            <table style="width: 100%; margin-top: 10px;">
+                <tr>
+                    <th style="text-align: left;">Attribute</th>
+                    <th style="text-align: left;">Value</th>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <span class="gender-select-span">${attributes.gender}</span>
+                        <select class="gender-select" style="display:none;">
+                            ${attributesData.genders.map(g => `<option value="${g}">${g}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Subcategory</td>
+                    <td>
+                        <span class="subcategory-select-span">${attributes.subcategory}</span>
+                        <select class="subcategory-select" style="display:none;">
+                            ${attributesData.subcategories.map(s => `<option value="${s}">${s}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Article Type</td>
+                    <td>
+                        <span class="articleType-select-span">${attributes.articleType}</span>
+                        <select class="articleType-select" style="display:none;">
+                            ${attributesData.articleTypes.map(a => `<option value="${a}">${a}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Base Colour</td>
+                    <td>
+                        <span class="baseColour-select-span">${attributes.baseColour}</span>
+                        <select class="baseColour-select" style="display:none;">
+                            ${attributesData.baseColours.map(b => `<option value="${b}">${b}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Season</td>
+                    <td>
+                        <span class="season-select-span">${attributes.season}</span>
+                        <select class="season-select" style="display:none;">
+                            ${attributesData.seasons.map(se => `<option value="${se}">${se}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Usage</td>
+                    <td>
+                        <span class="usage-select-span">${attributes.usage}</span>
+                        <select class="usage-select" style="display:none;">
+                            ${attributesData.usages.map(u => `<option value="${u}">${u}</option>`).join('')}
+                        </select>
+                    </td>
+                </tr>
+            </table>
         </div>
     `;
     attributesBox.style.display = 'block';
