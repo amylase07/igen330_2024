@@ -1,24 +1,11 @@
 [
     {
-        "image": "12235.jpg",
-        "text": "Genesis Maroon Formal Shirt",
+        "image": "12462.jpg",
+        "text": "Basics Men Brown Checked Waistcoat",
         "attributes": {
-            "type": "Shirts",
-            "colour": "Maroon",
-            "season": "Winter",
-            "usage": "Formal",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "4366.jpg",
-        "text": "Pink Floyd Men's The Wall Black T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Black",
-            "season": "Summer",
+            "type": "Waistcoat",
+            "colour": "Brown",
+            "season": "Fall",
             "usage": "Casual",
             "gender": "Men",
             "category": "Apparel",
@@ -26,12 +13,25 @@
         }
     },
     {
-        "image": "27625.jpg",
-        "text": "Scullers Men Grey Shorts",
+        "image": "17895.jpg",
+        "text": "Levis Men Pack of 3 Innerwear Vest",
+        "attributes": {
+            "type": "Innerwear Vests",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Innerwear"
+        }
+    },
+    {
+        "image": "44627.jpg",
+        "text": "Nike Men Grey 3/4 Length Pants",
         "attributes": {
             "type": "Shorts",
             "colour": "Grey",
-            "season": "Summer",
+            "season": "Fall",
             "usage": "Casual",
             "gender": "Men",
             "category": "Apparel",
@@ -39,25 +39,12 @@
         }
     },
     {
-        "image": "4836.jpg",
-        "text": "Sher Singh Men's Red Polo T-shirt",
+        "image": "8056.jpg",
+        "text": "Fila Men's Core Pique Polo Red T-shirt",
         "attributes": {
             "type": "Tshirts",
             "colour": "Red",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "31460.jpg",
-        "text": "Nike Men Cricket Off White T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "White",
-            "season": "Summer",
+            "season": "Fall",
             "usage": "Sports",
             "gender": "Men",
             "category": "Apparel",
@@ -65,112 +52,8 @@
         }
     },
     {
-        "image": "16217.jpg",
-        "text": "Puma Men Lifestyle  Grey Track Pant",
-        "attributes": {
-            "type": "Track Pants",
-            "colour": "Grey",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "13662.jpg",
-        "text": "Genesis Men Blue Stripe Shirt",
-        "attributes": {
-            "type": "Shirts",
-            "colour": "White",
-            "season": "Fall",
-            "usage": "Formal",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "38970.jpg",
-        "text": "Arrow New York Men Light Blue T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Blue",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "35970.jpg",
-        "text": "Flying Machine Men Tee Black T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Black",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "3196.jpg",
-        "text": "Tantra Men's Re-Incarnation Green T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Green",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "54955.jpg",
-        "text": "Do U Speak Green Men Blue T-Shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Blue",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "19838.jpg",
-        "text": "U.S. Polo Assn. Men Check Red Shirt",
-        "attributes": {
-            "type": "Shirts",
-            "colour": "Red",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "7928.jpg",
-        "text": "Proline Men Olive Green Polo T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Olive",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "48387.jpg",
-        "text": "French Connection Men Blue Jeans",
+        "image": "42256.jpg",
+        "text": "John Players Men Blue Jeans",
         "attributes": {
             "type": "Jeans",
             "colour": "Blue",
@@ -182,24 +65,11 @@
         }
     },
     {
-        "image": "9251.jpg",
-        "text": "Mark Taylor Men Green Striped Shirt",
+        "image": "15320.jpg",
+        "text": "Nike Men Solid Navy Blue Sweatshirts",
         "attributes": {
-            "type": "Shirts",
-            "colour": "Green",
-            "season": "Fall",
-            "usage": "Formal",
-            "gender": "Men",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "11678.jpg",
-        "text": "Lee Men Check Yellow Shirts",
-        "attributes": {
-            "type": "Shirts",
-            "colour": "Yellow",
+            "type": "Sweatshirts",
+            "colour": "Navy Blue",
             "season": "Fall",
             "usage": "Casual",
             "gender": "Men",
@@ -208,50 +78,180 @@
         }
     },
     {
-        "image": "17547.jpg",
-        "text": "Mark Taylor Men Blue & White Striped Shirt",
+        "image": "6609.jpg",
+        "text": "Spykar Men's Stripes White Top",
         "attributes": {
-            "type": "Shirts",
-            "colour": "Blue",
-            "season": "Fall",
-            "usage": "Formal",
+            "type": "Tops",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Casual",
             "gender": "Men",
             "category": "Apparel",
             "subCategory": "Topwear"
         }
     },
     {
-        "image": "16360.jpg",
-        "text": "Peter England Men Stripes Purple Shirt",
+        "image": "5954.jpg",
+        "text": "Locomotive Men Pink Stripe Shirt",
         "attributes": {
             "type": "Shirts",
-            "colour": "Purple",
-            "season": "Fall",
-            "usage": "Formal",
+            "colour": "Pink",
+            "season": "Summer",
+            "usage": "Casual",
             "gender": "Men",
             "category": "Apparel",
             "subCategory": "Topwear"
         }
     },
     {
-        "image": "19243.jpg",
-        "text": "Puma Men Padded Vest Red Jacket",
+        "image": "7549.jpg",
+        "text": "Nike Men Essenti Black Track Pant",
         "attributes": {
-            "type": "Jackets",
+            "type": "Track Pants",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "49976.jpg",
+        "text": "Hanes Men Red Innerwear Vest",
+        "attributes": {
+            "type": "Innerwear Vests",
             "colour": "Red",
-            "season": "Fall",
+            "season": "Summer",
             "usage": "Casual",
             "gender": "Men",
             "category": "Apparel",
-            "subCategory": "Topwear"
+            "subCategory": "Innerwear"
         }
     },
     {
-        "image": "19797.jpg",
-        "text": "U.S. Polo Assn. Men Striped Grey T-shirt",
+        "image": "19481.jpg",
+        "text": "Quiksilver Men Striped Black Shorts",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "44636.jpg",
+        "text": "Nike Men White Printed T-shirt",
         "attributes": {
             "type": "Tshirts",
-            "colour": "Grey",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "48386.jpg",
+        "text": "French Connection Men Black Jeans",
+        "attributes": {
+            "type": "Jeans",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "19327.jpg",
+        "text": "Myntra Men Solid Blue Sweatshirt",
+        "attributes": {
+            "type": "Sweatshirts",
+            "colour": "Navy Blue",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "46747.jpg",
+        "text": "Nike Men Black Track Pants",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "20221.jpg",
+        "text": "Wrangler Men Rib Charcoal Sweater",
+        "attributes": {
+            "type": "Sweaters",
+            "colour": "Charcoal",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "24502.jpg",
+        "text": "Pacific Gold Men Brown Leather Belt",
+        "attributes": {
+            "type": "Belts",
+            "colour": "Brown",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "4461.jpg",
+        "text": "Nike Men Manu Show Time Black Jacket",
+        "attributes": {
+            "type": "Jackets",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "20218.jpg",
+        "text": "Wrangler Men Rib Charcoal Sweater",
+        "attributes": {
+            "type": "Sweaters",
+            "colour": "Charcoal",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "11073.jpg",
+        "text": "Scullers Men Stripes Black Sweaters",
+        "attributes": {
+            "type": "Sweaters",
+            "colour": "Black",
             "season": "Fall",
             "usage": "Casual",
             "gender": "Men",
