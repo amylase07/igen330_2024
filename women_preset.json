@@ -1,0 +1,262 @@
+[
+    {
+        "image": "39236.jpg",
+        "text": "Femella Women Pink Layered Frilly Chiffon Top",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Pink",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "26367.jpg",
+        "text": "Arrow Woman Lavender Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Lavender",
+            "season": "Summer",
+            "usage": "nan",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "52346.jpg",
+        "text": "Red Rose Peach Nightdress",
+        "attributes": {
+            "type": "Nightdress",
+            "colour": "Peach",
+            "season": "Winter",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Loungewear and Nightwear"
+        }
+    },
+    {
+        "image": "6268.jpg",
+        "text": "Lee Women's Caroline Charcoal T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Grey",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "48104.jpg",
+        "text": "French Connection Women White Top",
+        "attributes": {
+            "type": "Tops",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "11481.jpg",
+        "text": "United Colors of Benetton Women Light Winter Green Tops",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Green",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "26911.jpg",
+        "text": "Jealous 21 Women Purple Printed Top",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Purple",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "27262.jpg",
+        "text": "Arrow Woman Striped Olive Top",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Olive",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "39124.jpg",
+        "text": "Aneri Women Beige Leggings",
+        "attributes": {
+            "type": "Leggings",
+            "colour": "Beige",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "2586.jpg",
+        "text": "Quechua Women Pink T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Pink",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "30617.jpg",
+        "text": "Nike Women Grey Track Pants",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Grey",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "4771.jpg",
+        "text": "ADIDAS Women's Purple Polo T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Purple",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "39720.jpg",
+        "text": "Arrow Woman Olive Jumpsuit",
+        "attributes": {
+            "type": "Jumpsuit",
+            "colour": "Olive",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Dress"
+        }
+    },
+    {
+        "image": "46263.jpg",
+        "text": "109F Women Black Printed Tunic",
+        "attributes": {
+            "type": "Tunics",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "13527.jpg",
+        "text": "Scullers For Her Women Lightwork White Shirts",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "White",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "2313.jpg",
+        "text": "Nike Womens Green Polo T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "White",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "5832.jpg",
+        "text": "ADIDAS Women's Who Was That Yellow T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Yellow",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "23045.jpg",
+        "text": "Arrow Woman Black Printed Jeggings",
+        "attributes": {
+            "type": "Leggings",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "7305.jpg",
+        "text": "UCB Women Racer Back Pink Top",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Pink",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "53117.jpg",
+        "text": "Myntra Women White T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    }
+]

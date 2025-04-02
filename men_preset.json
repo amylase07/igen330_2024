@@ -1,0 +1,262 @@
+[
+    {
+        "image": "12235.jpg",
+        "text": "Genesis Maroon Formal Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Maroon",
+            "season": "Winter",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "4366.jpg",
+        "text": "Pink Floyd Men's The Wall Black T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "27625.jpg",
+        "text": "Scullers Men Grey Shorts",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Grey",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "4836.jpg",
+        "text": "Sher Singh Men's Red Polo T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Red",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "31460.jpg",
+        "text": "Nike Men Cricket Off White T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "White",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "16217.jpg",
+        "text": "Puma Men Lifestyle  Grey Track Pant",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Grey",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "13662.jpg",
+        "text": "Genesis Men Blue Stripe Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "White",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "38970.jpg",
+        "text": "Arrow New York Men Light Blue T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "35970.jpg",
+        "text": "Flying Machine Men Tee Black T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "3196.jpg",
+        "text": "Tantra Men's Re-Incarnation Green T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Green",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "54955.jpg",
+        "text": "Do U Speak Green Men Blue T-Shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "19838.jpg",
+        "text": "U.S. Polo Assn. Men Check Red Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Red",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "7928.jpg",
+        "text": "Proline Men Olive Green Polo T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Olive",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "48387.jpg",
+        "text": "French Connection Men Blue Jeans",
+        "attributes": {
+            "type": "Jeans",
+            "colour": "Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "9251.jpg",
+        "text": "Mark Taylor Men Green Striped Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Green",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "11678.jpg",
+        "text": "Lee Men Check Yellow Shirts",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Yellow",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "17547.jpg",
+        "text": "Mark Taylor Men Blue & White Striped Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Blue",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "16360.jpg",
+        "text": "Peter England Men Stripes Purple Shirt",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Purple",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "19243.jpg",
+        "text": "Puma Men Padded Vest Red Jacket",
+        "attributes": {
+            "type": "Jackets",
+            "colour": "Red",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "19797.jpg",
+        "text": "U.S. Polo Assn. Men Striped Grey T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Grey",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    }
+]
