@@ -1,135 +1,5 @@
 [
     {
-        "image": "43671.jpg",
-        "text": "ONLY Women Pink Waistcoat",
-        "attributes": {
-            "type": "Waistcoat",
-            "colour": "Pink",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "1982.jpg",
-        "text": "Puma Women's Island Shorts Purple",
-        "attributes": {
-            "type": "Shorts",
-            "colour": "Purple",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "12346.jpg",
-        "text": "Reebok Women Grey Solid V-Neck T-shirt",
-        "attributes": {
-            "type": "Tshirts",
-            "colour": "Grey",
-            "season": "Fall",
-            "usage": "Formal",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "51354.jpg",
-        "text": "Spykar Women Light Blue Jeans",
-        "attributes": {
-            "type": "Jeans",
-            "colour": "Blue",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "18578.jpg",
-        "text": "Puma Women Black Sweatshirt",
-        "attributes": {
-            "type": "Sweatshirts",
-            "colour": "Black",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "3955.jpg",
-        "text": "Jealous 21 Women Printed Red Top",
-        "attributes": {
-            "type": "Tops",
-            "colour": "Red",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "7143.jpg",
-        "text": "Scullers For Her Women Light Work Blue Shirts",
-        "attributes": {
-            "type": "Shirts",
-            "colour": "Blue",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "9077.jpg",
-        "text": "ADIDAS Women Pink Track Pants",
-        "attributes": {
-            "type": "Track Pants",
-            "colour": "Pink",
-            "season": "Fall",
-            "usage": "Sports",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "57081.jpg",
-        "text": "Elle Women Blue Waistcoat",
-        "attributes": {
-            "type": "Waistcoat",
-            "colour": "Blue",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Topwear"
-        }
-    },
-    {
-        "image": "48111.jpg",
-        "text": "French Connection Women Light Brown Shorts",
-        "attributes": {
-            "type": "Shorts",
-            "colour": "Brown",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
         "image": "10509.jpg",
         "text": "Flying Machine Women RN HS White Tshirts",
         "attributes": {
@@ -143,12 +13,12 @@
         }
     },
     {
-        "image": "11240.jpg",
-        "text": "Flying Machine Women Low Rise Blue Jeans",
+        "image": "50946.jpg",
+        "text": "Lee Womens Blue Roxy Fit Jeans",
         "attributes": {
             "type": "Jeans",
             "colour": "Blue",
-            "season": "Fall",
+            "season": "Winter",
             "usage": "Casual",
             "gender": "Women",
             "category": "Apparel",
@@ -156,62 +26,23 @@
         }
     },
     {
-        "image": "9754.jpg",
-        "text": "ADIDAS Women Ess Mf Yoga Black Pants",
+        "image": "4771.jpg",
+        "text": "ADIDAS Women's Purple Polo T-shirt",
         "attributes": {
-            "type": "Track Pants",
-            "colour": "Black",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "58001.jpg",
-        "text": "Latin Quarters Women Black Printed Dress",
-        "attributes": {
-            "type": "Dresses",
-            "colour": "Black",
-            "season": "Fall",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Dress"
-        }
-    },
-    {
-        "image": "18524.jpg",
-        "text": "C Vox Women Solid 1351 Black Jacket",
-        "attributes": {
-            "type": "Jackets",
-            "colour": "Black",
-            "season": "Fall",
-            "usage": "Casual",
+            "type": "Tshirts",
+            "colour": "Purple",
+            "season": "Summer",
+            "usage": "Sports",
             "gender": "Women",
             "category": "Apparel",
             "subCategory": "Topwear"
         }
     },
     {
-        "image": "44686.jpg",
-        "text": "Wills Lifestyle Women Magenta Leggings",
+        "image": "6596.jpg",
+        "text": "Spykar Women Purple Top",
         "attributes": {
-            "type": "Leggings",
-            "colour": "Magenta",
-            "season": "Summer",
-            "usage": "Casual",
-            "gender": "Women",
-            "category": "Apparel",
-            "subCategory": "Bottomwear"
-        }
-    },
-    {
-        "image": "43660.jpg",
-        "text": "ONLY Women Purple Tunic",
-        "attributes": {
-            "type": "Tunics",
+            "type": "Tops",
             "colour": "Purple",
             "season": "Summer",
             "usage": "Casual",
@@ -221,11 +52,24 @@
         }
     },
     {
-        "image": "33960.jpg",
-        "text": "Femella Women Pink Leggings",
+        "image": "52115.jpg",
+        "text": "Myntra Women Blue and Yellow Printed Top",
         "attributes": {
-            "type": "Leggings",
-            "colour": "Pink",
+            "type": "Tops",
+            "colour": "Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "27405.jpg",
+        "text": "Jockey Women Black Capris",
+        "attributes": {
+            "type": "Capris",
+            "colour": "Black",
             "season": "Summer",
             "usage": "Casual",
             "gender": "Women",
@@ -234,26 +78,143 @@
         }
     },
     {
-        "image": "26863.jpg",
-        "text": "Jealous 21 Women Navy Blue Skirts",
+        "image": "25914.jpg",
+        "text": "Femella Women Olive Leggings",
+        "attributes": {
+            "type": "Leggings",
+            "colour": "Olive",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "22459.jpg",
+        "text": "Myntra Women Purple Leggings",
+        "attributes": {
+            "type": "Leggings",
+            "colour": "Purple",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "10354.jpg",
+        "text": "United Colors of Benetton Women Checks Blue Tops",
+        "attributes": {
+            "type": "Tops",
+            "colour": "Blue",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "43520.jpg",
+        "text": "French Connection Women Navy Blue Skirt",
         "attributes": {
             "type": "Skirts",
             "colour": "Navy Blue",
             "season": "Summer",
-            "usage": "Casual",
+            "usage": "Formal",
             "gender": "Women",
             "category": "Apparel",
             "subCategory": "Bottomwear"
         }
     },
     {
-        "image": "57060.jpg",
-        "text": "Elle Women Teal Dress",
+        "image": "7504.jpg",
+        "text": "Nike Women's Smash Pink T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Pink",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "7491.jpg",
+        "text": "Nike Women's EM Tempo 3.5\" Pink Short",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Pink",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "2268.jpg",
+        "text": "Nike Grey Women Sweatshirt",
+        "attributes": {
+            "type": "Sweatshirts",
+            "colour": "Grey",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "48466.jpg",
+        "text": "French Connection Women Black Dress",
         "attributes": {
             "type": "Dresses",
-            "colour": "Teal",
-            "season": "Summer",
-            "usage": "Casual",
+            "colour": "Black",
+            "season": "Winter",
+            "usage": "Party",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Dress"
+        }
+    },
+    {
+        "image": "9083.jpg",
+        "text": "ADIDAS Women Ess Cuffed Pant Black Trackpant",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "59972.jpg",
+        "text": "Avirate Black Dress",
+        "attributes": {
+            "type": "Dresses",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Party",
+            "gender": "Women",
+            "category": "Apparel",
+            "subCategory": "Dress"
+        }
+    },
+    {
+        "image": "59995.jpg",
+        "text": "Avirate Black Dress",
+        "attributes": {
+            "type": "Dresses",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Party",
             "gender": "Women",
             "category": "Apparel",
             "subCategory": "Dress"
