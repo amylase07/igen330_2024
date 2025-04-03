@@ -117,7 +117,10 @@ const PORT = 3000; // Change this to any port you prefer
 
 // Middleware to serve static files (CSS, JS)
 app.use(express.static(path.join(__dirname)));
-app.use(express.json()); // Middleware to parse JSON body from requests
+//app.use(express.json()); // Middleware to parse JSON body from requests
+app.use(express.json({ limit: '100mb' })); // Allow up to 50MB payload size
+app.use(express.urlencoded({ limit: '100mb', extended: true })); // For handling form data with larger sizes
+
 
 // Set up storage for uploaded images
 const storage = multer.diskStorage({
@@ -129,7 +132,10 @@ const storage = multer.diskStorage({
     }
 });
 
-const upload = multer({ storage: storage });
+const upload = multer({
+    storage: storage,
+    limits: { fileSize: 50 * 1024 * 1024 } // Set limit to 50MB
+});
 
 // // Endpoint for uploading images
 // app.post('/save_image', upload.single('image'), (req, res) => {
@@ -193,6 +199,7 @@ const upload = multer({ storage: storage });
 
 // New endpoint for saving images and attributes
 app.post('/save_image', (req, res) => {
+        console.log('Request body size (bytes):', Buffer.byteLength(JSON.stringify(req.body)));
     const imageData = req.body;
 
     // Path to save the image file
