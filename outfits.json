@@ -20,5 +20,16 @@
       "season": "Summer",
       "usage": "Travel"
     }
+  },
+  {
+    "image": "imageRepo/tempImage1.jpg",
+    "attributes": {
+      "gender": "Boys",
+      "subcategory": "Topwear",
+      "articleType": "Shorts",
+      "baseColour": "Skin",
+      "season": "Spring",
+      "usage": "Smart Casual"
+    }
   }
 ]
