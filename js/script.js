@@ -275,7 +275,7 @@ function checkSelection(event) {
     selectedOccasionValue = document.querySelector('input[name="occasion"]:checked')?.value || null;
     selectedGenderValue = document.querySelector('input[name="gender"]:checked')?.value || null;
 
-    // Handle selection logic.
+    // checks if buttons are checked and reenables the create outfit button if they're both on
     const selectedOccasion = document.querySelector('input[name="occasion"]:checked');
     const selectedGender = document.querySelector('input[name="gender"]:checked');
 
