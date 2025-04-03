@@ -9,5 +9,60 @@
       "season": "Fall",
       "usage": "Casual"
     }
+  },
+  {
+    "src": "/images/1743649373335.jpg",
+    "attributes": {
+      "gender": "Men",
+      "subcategory": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Navy Blue",
+      "season": "Fall",
+      "usage": "Casual"
+    }
+  },
+  {
+    "src": "/images/1743649841143.jpg",
+    "attributes": {
+      "gender": "Girls",
+      "subcategory": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Navy Blue",
+      "season": "Fall",
+      "usage": "Casual"
+    }
+  },
+  {
+    "src": "/images/1743651009850.jpg",
+    "attributes": {
+      "gender": "Men",
+      "subcategory": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Navy Blue",
+      "season": "Fall",
+      "usage": "Casual"
+    }
+  },
+  {
+    "src": "/images/1743653708421.jpg",
+    "attributes": {
+      "gender": "Men",
+      "subcategory": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Navy Blue",
+      "season": "Fall",
+      "usage": "Casual"
+    }
+  },
+  {
+    "src": "/images/1743655174648.jpg",
+    "attributes": {
+      "gender": "Men",
+      "subcategory": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Navy Blue",
+      "season": "Fall",
+      "usage": "Casual"
+    }
   }
 ]

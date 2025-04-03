@@ -273,6 +273,8 @@ function checkSelection(event) {
     //const selectedOccasion = event.target;
     //const selectedGender = event.target;
 
+    console.log("occasion sleected", selectedOccasion.value); // Log the selected occasion
+
     // Handle selection logic.
     const selectedOccasion = document.querySelector('input[name="occasion"]:checked');
     const selectedGender = document.querySelector('input[name="gender"]:checked');
