@@ -179,9 +179,9 @@ async function getWeather() {
 
 // Function to display the current date and time in Vancouver timezone
 function displayDateTime() {
-    const options = { timeZone: 'America/Vancouver', year: 'numeric', month: '2-digit', day: '2-digit', hour: 'numeric', minute: 'numeric', hour12: false };
+    const options = { timeZone: 'America/Vancouver', year: 'numeric', weekday: 'long', month: 'long', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
     const now = new Date();
-    datetimeDiv.innerText = `Current Date and Time: ${now.toLocaleString('en-CA', options)}`;
+    datetimeDiv.innerText = `Current Date and Time: ${now.toLocaleString('en-US', options)}`;
 }
 
 // Function to create outfits based on selected occasion
@@ -377,7 +377,7 @@ function saveAttributes() {
 // Initial function calls
 getWeather();
 displayDateTime();
-setInterval(displayDateTime, 60000); // Update time every minute.
+setInterval(displayDateTime, 1000); // Update time every second.
 
 // Add event listeners to each radio button for custom checking.
 document.querySelectorAll('input[name="occasion"]').forEach(radio => {
