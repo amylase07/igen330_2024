@@ -64,5 +64,27 @@
       "season": "Fall",
       "usage": "Casual"
     }
+  },
+  {
+    "src": "/images/1743669680620.jpg",
+    "attributes": {
+      "gender": "N/A",
+      "subcategory": "N/A",
+      "articleType": "N/A",
+      "baseColour": "N/A",
+      "season": "N/A",
+      "usage": "N/A"
+    }
+  },
+  {
+    "src": "/images/1743676628740.jpg",
+    "attributes": {
+      "gender": "N/A",
+      "subcategory": "N/A",
+      "articleType": "N/A",
+      "baseColour": "N/A",
+      "season": "N/A",
+      "usage": "N/A"
+    }
   }
 ]

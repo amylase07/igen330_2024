@@ -113,8 +113,7 @@ const path = require('path');
 const fs = require('fs'); // Importing the fs module to handle file operations
 
 const app = express();
-//const PORT = 3000; // Change this to any port you prefer
-const PORT = process.env.PORT || 3000; // Use Heroku's assigned port or fallback to 3000 locally
+const PORT = 3000; // Change this to any port you prefer
 
 // Middleware to serve static files (CSS, JS)
 app.use(express.static(path.join(__dirname)));
@@ -199,6 +198,9 @@ app.post('/save_image', (req, res) => {
     // Path to save the image file
     const fileName = `${Date.now()}.jpg`;
     const imagePath = path.join(__dirname, 'images', fileName);
+
+    console.log('__dirname:', __dirname);
+
 
     // Get the base64 string from the image data
     const base64Image = imageData.src.split(',')[1];
