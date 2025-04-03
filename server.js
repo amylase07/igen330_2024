@@ -1,12 +1,14 @@
 // const express = require('express');
 // const multer = require('multer');
 // const path = require('path');
+// const fs = require('fs'); // Importing the fs module to handle file operations
 
 // const app = express();
 // const PORT = 3000; // Change this to any port you prefer
 
 // // Middleware to serve static files (CSS, JS)
 // app.use(express.static(path.join(__dirname)));
+// app.use(express.json()); // Middleware to parse JSON body from requests
 
 // // Set up storage for uploaded images
 // const storage = multer.diskStorage({
@@ -20,17 +22,78 @@
 
 // const upload = multer({ storage: storage });
 
-// // Endpoint for uploading images
-// app.post('/save_image', upload.single('image'), (req, res) => {
-//     if (req.file) {
-//         res.json({
-//             status: 'success',
-//             message: 'Image uploaded successfully',
-//             file: req.file.path
+// // // Endpoint for uploading images
+// // app.post('/save_image', upload.single('image'), (req, res) => {
+// //     if (req.file) {
+// //         res.json({
+// //             status: 'success',
+// //             message: 'Image uploaded successfully',
+// //             file: req.file.path
+// //         });
+// //     } else {
+// //         res.status(400).json({ status: 'error', message: 'Image upload failed' });
+// //     }
+// // });
+// // New endpoint for saving images
+// app.post('/save_image', (req, res) => {
+//     const imageData = req.body;
+
+//     const filePath = path.join(__dirname, 'savedImages.json');
+
+//     fs.readFile(filePath, 'utf8', (err, data) => {
+//         let savedImages = [];
+//         if (!err && data) {
+//             savedImages = JSON.parse(data); 
+//         }
+//         savedImages.push(imageData); 
+        
+//         fs.writeFile(filePath, JSON.stringify(savedImages, null, 2), (err) => {
+//             if (err) {
+//                 return res.status(500).json({ status: 'error', message: 'Could not save image data' });
+//             }
+//             res.json({ status: 'success', message: 'Image saved successfully' });
 //         });
-//     } else {
-//         res.status(400).json({ status: 'error', message: 'Image upload failed' });
-//     }
+//     });
+// });
+
+// // Endpoint for saving outfits
+// app.post('/save_outfit', (req, res) => {
+//     const outfitData = req.body;
+
+//     // Ensure outfits.json file exists to store outfit data
+//     const filePath = path.join(__dirname, 'outfits.json');
+
+//     // Read existing outfits
+//     fs.readFile(filePath, 'utf8', (err, data) => {
+//         let outfits = [];
+//         if (!err) { // If reading the file was successful
+//             outfits = JSON.parse(data); // Parse the existing data
+//         }
+//         outfits.push(outfitData); // Add the new outfit
+        
+//         // Write updated outfits back to the file
+//         fs.writeFile(filePath, JSON.stringify(outfits, null, 2), (err) => {
+//             if (err) {
+//                 return res.status(500).json({ status: 'error', message: 'Could not save outfit data' });
+//             }
+
+//             res.json({ status: 'success', message: 'Outfit saved successfully' });
+//         });
+//     });
+// });
+
+// // Endpoint for getting outfits
+// app.get('/get_outfits', (req, res) => {
+//     const filePath = path.join(__dirname, 'outfits.json');
+
+//     fs.readFile(filePath, 'utf8', (err, data) => {
+//         if (err) {
+//             return res.status(500).json({ status: 'error', message: 'Could not read outfit data' });
+//         }
+        
+//         const outfits = JSON.parse(data); // Parse and return the saved outfits
+//         res.json(outfits);
+//     });
 // });
 
 // // Define a route for the root URL
@@ -68,18 +131,142 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-// Endpoint for uploading images
-app.post('/save_image', upload.single('image'), (req, res) => {
-    if (req.file) {
-        res.json({
-            status: 'success',
-            message: 'Image uploaded successfully',
-            file: req.file.path
+// // Endpoint for uploading images
+// app.post('/save_image', upload.single('image'), (req, res) => {
+//     if (req.file) {
+//         res.json({
+//             status: 'success',
+//             message: 'Image uploaded successfully',
+//             file: req.file.path
+//         });
+//     } else {
+//         res.status(400).json({ status: 'error', message: 'Image upload failed' });
+//     }
+// });
+// Inside server.js
+
+
+// // New endpoint for saving images and attributes
+// app.post('/save_image', (req, res) => {
+//     const imageData = req.body;
+
+//     // Path to save the image file
+//     const fileName = `${Date.now()}.jpg`;
+//     const imagePath = path.join(__dirname, 'images', fileName);
+
+//     // Get the base64 string from the image data
+//     const base64Image = imageData.src.split(',')[1];
+
+//     // Write the saved image to the filesystem
+//     fs.writeFile(imagePath, base64Image, { encoding: 'base64' }, (err) => {
+//         if (err) {
+//             return res.status(500).json({ status: 'error', message: 'Could not save the image file' });
+//         }
+
+//         // Prepare the data for saving in savedImages.json
+//         const dataToSave = {
+//             src: imagePath, // Store the file path instead of Base64
+//             attributes: imageData.attributes
+//         };
+
+//         // Read and parse savedImages.json
+//         const jsonFilePath = path.join(__dirname, 'savedImages.json');
+
+//         fs.readFile(jsonFilePath, 'utf8', (err, data) => {
+//             let savedImages = [];
+//             if (!err && data) {
+//                 savedImages = JSON.parse(data); 
+//             }
+
+//             savedImages.push(dataToSave); 
+
+//             // Write back to the savedImages.json
+//             fs.writeFile(jsonFilePath, JSON.stringify(savedImages, null, 2), (err) => {
+//                 if (err) {
+//                     return res.status(500).json({ status: 'error', message: 'Could not save image data' });
+//                 }
+//                 res.json({ status: 'success', message: 'Image saved successfully' });
+//             });
+//         });
+//     });
+// });
+
+// New endpoint for saving images and attributes
+app.post('/save_image', (req, res) => {
+    const imageData = req.body;
+
+    // Path to save the image file
+    const fileName = `${Date.now()}.jpg`;
+    const imagePath = path.join(__dirname, 'images', fileName);
+
+    // Get the base64 string from the image data
+    const base64Image = imageData.src.split(',')[1];
+
+    // Logging the Base64 image for debugging
+    console.log('Base64 image:', base64Image);
+    
+    // Write the saved image to the filesystem
+    fs.writeFile(imagePath, base64Image, { encoding: 'base64' }, (err) => {
+        if (err) {
+            console.error('Error saving image file:', err); // Log the error if saving fails
+            return res.status(500).json({ status: 'error', message: 'Could not save the image file' });
+        }
+
+        // Prepare the data for saving in savedImages.json
+        const dataToSave = {
+            src: `/images/${fileName}`, // Store the relative path for public access
+            attributes: imageData.attributes
+        };
+
+        // Read and parse savedImages.json
+        const jsonFilePath = path.join(__dirname, 'savedImages.json');
+
+        fs.readFile(jsonFilePath, 'utf8', (err, data) => {
+            let savedImages = [];
+            if (!err && data) {
+                savedImages = JSON.parse(data); 
+            }
+
+            savedImages.push(dataToSave); 
+
+            // Write back to the savedImages.json
+            fs.writeFile(jsonFilePath, JSON.stringify(savedImages, null, 2), (err) => {
+                if (err) {
+                    console.error('Error saving image data:', err); // Log the error if saving fails
+                    return res.status(500).json({ status: 'error', message: 'Could not save image data' });
+                }
+                res.json({ status: 'success', message: 'Image saved successfully' });
+            });
         });
-    } else {
-        res.status(400).json({ status: 'error', message: 'Image upload failed' });
-    }
+    });
 });
+
+// Endpoint for retrieving saved images
+app.get('/get_saved_images', (req, res) => {
+    const filePath = path.join(__dirname, 'savedImages.json');
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).json({ status: 'error', message: 'Could not read saved images data' });
+        }
+
+        const savedImages = JSON.parse(data); // Parse and return the saved images
+        res.json(savedImages);
+    });
+});
+
+// Start the server only after checking if the savedImages.json file exists
+const initializeSavedImages = () => {
+    const initialData = [];
+    const filePath = path.join(__dirname, 'savedImages.json');
+
+    if (!fs.existsSync(filePath)) {
+        fs.writeFileSync(filePath, JSON.stringify(initialData, null, 2), 'utf8');
+    }
+};
+
+// Call the initialization function at the start of the server
+initializeSavedImages();
 
 // Endpoint for saving outfits
 app.post('/save_outfit', (req, res) => {
@@ -121,6 +308,29 @@ app.get('/get_outfits', (req, res) => {
     });
 });
 
+// Endpoint for deleting an image
+app.post('/delete_image', (req, res) => {
+    const imageToDelete = req.body;
+
+    const filePath = path.join(__dirname, 'savedImages.json');
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).json({ status: 'error', message: 'Could not read saved images data' });
+        }
+
+        let savedImages = JSON.parse(data);
+        savedImages = savedImages.filter(img => img.src !== imageToDelete.src); // Remove the image based on its src
+
+        fs.writeFile(filePath, JSON.stringify(savedImages, null, 2), (err) => {
+            if (err) {
+                return res.status(500).json({ status: 'error', message: 'Could not save updated images data' });
+            }
+            res.json({ status: 'success', message: 'Image deleted successfully' });
+        });
+    });
+});
+
 // Define a route for the root URL
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html')); // Serve the home page
@@ -130,3 +340,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+
+
