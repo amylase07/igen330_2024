@@ -118,8 +118,8 @@ const PORT = 3000; // Change this to any port you prefer
 // Middleware to serve static files (CSS, JS)
 app.use(express.static(path.join(__dirname)));
 //app.use(express.json()); // Middleware to parse JSON body from requests
-app.use(express.json({ limit: '300mb' })); // Allow up to 50MB payload size
-app.use(express.urlencoded({ limit: '300mb', extended: true })); // For handling form data with larger sizes
+app.use(express.json({ limit: '1000mb' })); // Allow up to 50MB payload size
+app.use(express.urlencoded({ limit: '1000mb', extended: true })); // For handling form data with larger sizes
 
 
 // Set up storage for uploaded images
