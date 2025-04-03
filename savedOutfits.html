@@ -26,15 +26,16 @@
 
                 const attributesBox = document.createElement('div');
                 attributesBox.innerHTML = `
-                    <strong>Attributes:</strong><br>
+                    
+                `;
+                // taking it out of the attrbutes box, if you want it back then cut and paste under line 28
+                /*<strong>Top Attributes:</strong><br>
                     Gender: ${outfit.attributes.gender || 'N/A'}<br>
                     Subcategory: ${outfit.attributes.subcategory || 'N/A'}<br>
                     Article Type: ${outfit.attributes.articleType || 'N/A'}<br>
                     Base Colour: ${outfit.attributes.baseColour || 'N/A'}<br>
                     Season: ${outfit.attributes.season || 'N/A'}<br>
-                    Usage: ${outfit.attributes.usage || 'N/A'}<br>
-                `;
-
+                    Usage: ${outfit.attributes.usage || 'N/A'}<br>*/
                 imgContainer.appendChild(img);
                 imgContainer.appendChild(attributesBox);
                 container.appendChild(imgContainer);
