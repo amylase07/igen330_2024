@@ -24,45 +24,12 @@
   {
     "image": "imageRepo/tempImage1.jpg",
     "attributes": {
-      "gender": "Girls",
-      "subcategory": "Dress",
-      "articleType": "Camisoles",
-      "baseColour": "Mustard",
-      "season": "Summer",
-      "usage": "Sports"
-    }
-  },
-  {
-    "image": "imageRepo/tempImage2.jpg",
-    "attributes": {
-      "gender": "Men",
-      "subcategory": "Loungewear and Nightwear",
-      "articleType": "Shrug",
-      "baseColour": "Mushroom Brown",
-      "season": "Summer",
-      "usage": "Formal"
-    }
-  },
-  {
-    "image": "imageRepo/tempImage3.jpg",
-    "attributes": {
-      "gender": "Unisex",
-      "subcategory": "Loungewear and Nightwear",
-      "articleType": "Lounge Pants",
-      "baseColour": "Charcoal",
-      "season": "Winter",
-      "usage": "NA"
-    }
-  },
-  {
-    "image": "imageRepo/tempImage4.jpg",
-    "attributes": {
-      "gender": "Unisex",
-      "subcategory": "Loungewear and Nightwear",
-      "articleType": "Leggings",
-      "baseColour": "Nude",
-      "season": "Summer",
-      "usage": "Casual"
+      "gender": "Boys",
+      "subcategory": "Topwear",
+      "articleType": "Shorts",
+      "baseColour": "Skin",
+      "season": "Spring",
+      "usage": "Smart Casual"
     }
   }
 ]

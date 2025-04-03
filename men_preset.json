@@ -1,0 +1,223 @@
+[
+    {
+        "image": "14760.jpg",
+        "text": "Arrow Men Solid Blue Shirts",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Blue",
+            "season": "Fall",
+            "usage": "Formal",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "7829.jpg",
+        "text": "Proline Men Grey Printed T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Grey",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "38584.jpg",
+        "text": "Nike Men Printed Green T-shirt",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Green",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "23141.jpg",
+        "text": "Quechua Men Warm Fleece Navy Blue Sweatshirt",
+        "attributes": {
+            "type": "Sweatshirts",
+            "colour": "Navy Blue",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "14111.jpg",
+        "text": "Flying Machine Men Printed Navy Blue Sweatshirts",
+        "attributes": {
+            "type": "Sweatshirts",
+            "colour": "Navy Blue",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "4318.jpg",
+        "text": "Tantra Kid's Men Kya Boss Orange Kidswear",
+        "attributes": {
+            "type": "Tshirts",
+            "colour": "Orange",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "11455.jpg",
+        "text": "United Colors of Benetton Men Light Winters Black Shirts",
+        "attributes": {
+            "type": "Shirts",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Topwear"
+        }
+    },
+    {
+        "image": "5453.jpg",
+        "text": "Nike Men's Vapor Knit Grey Short",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Grey",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "36254.jpg",
+        "text": "SDL by Sweet Dreams Men Navy Blue & White Pyjama Set",
+        "attributes": {
+            "type": "Night suits",
+            "colour": "Navy Blue",
+            "season": "Summer",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Loungewear and Nightwear"
+        }
+    },
+    {
+        "image": "8022.jpg",
+        "text": "Fila Men's Single Tipped Woven Navy White Track Pant",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Navy Blue",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "14124.jpg",
+        "text": "Flying Machine Men Washed Blue Jeans",
+        "attributes": {
+            "type": "Jeans",
+            "colour": "Blue",
+            "season": "Winter",
+            "usage": "Casual",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "31468.jpg",
+        "text": "Nike Men Cricket Off White Track Pants",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Off White",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "34201.jpg",
+        "text": "Proline Men Grey Melange Track Pants",
+        "attributes": {
+            "type": "Track Pants",
+            "colour": "Grey Melange",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "10004.jpg",
+        "text": "Nike Men As 7 Sw Temp Grey Shorts",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Grey",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "7935.jpg",
+        "text": "Puma Men Jersey Black Short",
+        "attributes": {
+            "type": "Shorts",
+            "colour": "Black",
+            "season": "Fall",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Bottomwear"
+        }
+    },
+    {
+        "image": "50670.jpg",
+        "text": "Chromozome Men Black Ranger Lounge Pants",
+        "attributes": {
+            "type": "Lounge Pants",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Loungewear and Nightwear"
+        }
+    },
+    {
+        "image": "50666.jpg",
+        "text": "Chromozome Men Black Fashion Lounge Pants S-5145",
+        "attributes": {
+            "type": "Lounge Pants",
+            "colour": "Black",
+            "season": "Summer",
+            "usage": "Sports",
+            "gender": "Men",
+            "category": "Apparel",
+            "subCategory": "Loungewear and Nightwear"
+        }
+    }
+]

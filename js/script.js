@@ -161,7 +161,8 @@ const images = [
 ];
 
 let currentIndex = 0;
-let currentlySelected = null;
+let selectedOccasionValue = null;
+let selectedGenderValue = null;
 let attributesArray = []; // To hold the attributes for each image
 
 // Function to fetch and display the current weather
@@ -179,9 +180,9 @@ async function getWeather() {
 
 // Function to display the current date and time in Vancouver timezone
 function displayDateTime() {
-    const options = { timeZone: 'America/Vancouver', year: 'numeric', month: '2-digit', day: '2-digit', hour: 'numeric', minute: 'numeric', hour12: false };
+    const options = { timeZone: 'America/Vancouver', year: 'numeric', weekday: 'long', month: 'long', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
     const now = new Date();
-    datetimeDiv.innerText = `Current Date and Time: ${now.toLocaleString('en-CA', options)}`;
+    datetimeDiv.innerText = `Current Date and Time: ${now.toLocaleString('en-US', options)}`;
 }
 
 // Function to create outfits based on selected occasion
@@ -269,18 +270,32 @@ function updateArrowState() {
 // Function to check if an occasion is selected
 function checkSelection(event) {
     console.log("Selected value:", event.target.value); // Log the selected value
-    const selectedOccasion = event.target;
+    
+    //Saves the values selected for later. The initializations are near the beginning
+    selectedOccasionValue = document.querySelector('input[name="occasion"]:checked')?.value || null;
+    selectedGenderValue = document.querySelector('input[name="gender"]:checked')?.value || null;
 
-    // Handle selection logic.
-    if (currentlySelected === selectedOccasion) {
+    // checks if buttons are checked and reenables the create outfit button if they're both on
+    const selectedOccasion = document.querySelector('input[name="occasion"]:checked');
+    const selectedGender = document.querySelector('input[name="gender"]:checked');
+
+    createOutfitButton.disabled = !(selectedOccasion && selectedGender);
+    /*if (currentlySelected === selectedOccasion) {
         selectedOccasion.checked = false;
         currentlySelected = null; // Reset the currently selected.
     } else {
-        currentlySelected = selectedOccasion; 
+        currentlySelected = selectedOccasion;
     }
 
+    if (currentlySelected2 === selectedGender) {
+        selectedGender.checked = false;
+        currentlySelected2 = null; // Reset the currently selected.
+    } else {
+        currentlySelected2 = selectedGender; 
+    }*/
+
     // Verify if an option is selected to enable/disable the button.
-    createOutfitButton.disabled = currentlySelected === null;
+    //createOutfitButton.disabled = currentlySelected === null;
 }
 
 // function displayAttributes() {
@@ -377,9 +392,12 @@ function saveAttributes() {
 // Initial function calls
 getWeather();
 displayDateTime();
-setInterval(displayDateTime, 60000); // Update time every minute.
+setInterval(displayDateTime, 1000); // Update time every second.
 
 // Add event listeners to each radio button for custom checking.
 document.querySelectorAll('input[name="occasion"]').forEach(radio => {
+    radio.addEventListener('click', checkSelection);
+});
+document.querySelectorAll('input[name="gender"]').forEach(radio => {
     radio.addEventListener('click', checkSelection);
 });
