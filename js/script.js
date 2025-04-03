@@ -161,8 +161,8 @@ const images = [
 ];
 
 let currentIndex = 0;
-let currentlySelected = null;
-let currentlySelected2 = null;
+let selectedOccasionValue = null;
+let selectedGenderValue = null;
 let attributesArray = []; // To hold the attributes for each image
 
 // Function to fetch and display the current weather
@@ -270,12 +270,12 @@ function updateArrowState() {
 // Function to check if an occasion is selected
 function checkSelection(event) {
     console.log("Selected value:", event.target.value); // Log the selected value
-    //const selectedOccasion = event.target;
-    //const selectedGender = event.target;
+    
+    //Saves the values selected for later. The initializations are near the beginning
+    selectedOccasionValue = document.querySelector('input[name="occasion"]:checked')?.value || null;
+    selectedGenderValue = document.querySelector('input[name="gender"]:checked')?.value || null;
 
-    //console.log("occasion sleected", selectedOccasion.value); // Log the selected occasion
-
-    // Handle selection logic.
+    // checks if buttons are checked and reenables the create outfit button if they're both on
     const selectedOccasion = document.querySelector('input[name="occasion"]:checked');
     const selectedGender = document.querySelector('input[name="gender"]:checked');
 
