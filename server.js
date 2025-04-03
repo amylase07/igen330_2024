@@ -113,7 +113,8 @@ const path = require('path');
 const fs = require('fs'); // Importing the fs module to handle file operations
 
 const app = express();
-const PORT = 3000; // Change this to any port you prefer
+//const PORT = 3000; // Change this to any port you prefer
+const PORT = process.env.PORT || 3000; // Use Heroku's assigned port or fallback to 3000 locally
 
 // Middleware to serve static files (CSS, JS)
 app.use(express.static(path.join(__dirname)));
