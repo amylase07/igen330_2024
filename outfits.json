@@ -31,5 +31,16 @@
       "season": "Spring",
       "usage": "Smart Casual"
     }
+  },
+  {
+    "image": "imageRepo/tempImage1.jpg",
+    "attributes": {
+      "gender": "Women",
+      "subcategory": "Dress",
+      "articleType": "Rompers",
+      "baseColour": "Black",
+      "season": "Summer",
+      "usage": "Party"
+    }
   }
 ]
