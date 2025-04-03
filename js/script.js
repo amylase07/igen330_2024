@@ -162,6 +162,7 @@ const images = [
 
 let currentIndex = 0;
 let currentlySelected = null;
+let currentlySelected2 = null;
 let attributesArray = []; // To hold the attributes for each image
 
 // Function to fetch and display the current weather
@@ -269,18 +270,30 @@ function updateArrowState() {
 // Function to check if an occasion is selected
 function checkSelection(event) {
     console.log("Selected value:", event.target.value); // Log the selected value
-    const selectedOccasion = event.target;
+    //const selectedOccasion = event.target;
+    //const selectedGender = event.target;
 
     // Handle selection logic.
-    if (currentlySelected === selectedOccasion) {
+    const selectedOccasion = document.querySelector('input[name="occasion"]:checked');
+    const selectedGender = document.querySelector('input[name="gender"]:checked');
+
+    createOutfitButton.disabled = !(selectedOccasion && selectedGender);
+    /*if (currentlySelected === selectedOccasion) {
         selectedOccasion.checked = false;
         currentlySelected = null; // Reset the currently selected.
     } else {
-        currentlySelected = selectedOccasion; 
+        currentlySelected = selectedOccasion;
     }
 
+    if (currentlySelected2 === selectedGender) {
+        selectedGender.checked = false;
+        currentlySelected2 = null; // Reset the currently selected.
+    } else {
+        currentlySelected2 = selectedGender; 
+    }*/
+
     // Verify if an option is selected to enable/disable the button.
-    createOutfitButton.disabled = currentlySelected === null;
+    //createOutfitButton.disabled = currentlySelected === null;
 }
 
 // function displayAttributes() {
@@ -381,5 +394,8 @@ setInterval(displayDateTime, 1000); // Update time every second.
 
 // Add event listeners to each radio button for custom checking.
 document.querySelectorAll('input[name="occasion"]').forEach(radio => {
+    radio.addEventListener('click', checkSelection);
+});
+document.querySelectorAll('input[name="gender"]').forEach(radio => {
     radio.addEventListener('click', checkSelection);
 });
