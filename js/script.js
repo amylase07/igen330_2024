@@ -271,6 +271,8 @@ function checkSelection(event) {
     console.log("Selected value:", event.target.value); // Log the selected value
     const selectedOccasion = event.target;
 
+    console.log("occasion sleected", selectedOccasion.value); // Log the selected occasion
+
     // Handle selection logic.
     if (currentlySelected === selectedOccasion) {
         selectedOccasion.checked = false;

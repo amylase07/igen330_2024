@@ -268,6 +268,44 @@ const initializeSavedImages = () => {
 // Call the initialization function at the start of the server
 initializeSavedImages();
 
+// Endpoint to save image temporarily to imagesTemp
+app.post('/save_temp_image', (req, res) => {
+    const { src } = req.body; // Get Base64 image data
+
+    // Define path for temporary image
+    const tempFileName = `${Date.now()}_temp.jpg`;
+    const tempImagePath = path.join(__dirname, 'imagesTemp', tempFileName);
+    
+    // Get the base64 string from the image data
+    const base64Image = src.split(',')[1];
+
+    // Write the saved image to the filesystem
+    fs.writeFile(tempImagePath, base64Image, { encoding: 'base64' }, (err) => {
+        if (err) {
+            console.error('Error saving temp image:', err);
+            return res.status(500).json({ status: 'error', message: 'Could not save temporary image' });
+        }
+        // Return the filename for later deletion
+        res.json({ status: 'success', message: 'Temporary image saved', filename: tempFileName });
+    });
+});
+
+// Endpoint to delete the temporary image
+app.post('/delete_temp_image', (req, res) => {
+    const { filename } = req.body; // Get the filename
+
+    // Define the path to the temp image to delete
+    const tempImagePath = path.join(__dirname, 'imagesTemp', filename);
+
+    fs.unlink(tempImagePath, (err) => {
+        if (err) {
+            console.error('Error deleting temp image:', err);
+            return res.status(500).json({ status: 'error', message: 'Could not delete temporary image' });
+        }
+        res.json({ status: 'success', message: 'Temporary image deleted' });
+    });
+});
+
 // Endpoint for saving outfits
 app.post('/save_outfit', (req, res) => {
     const outfitData = req.body;
@@ -340,5 +378,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
-
-
