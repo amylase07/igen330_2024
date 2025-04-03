@@ -585,7 +585,7 @@ async function captureImage() {
 
     // Wait for 5 seconds before showing attributes
     setTimeout(() => {
-        const attributes = generateRandomAttributes(); 
+        const attributes = generateRandomAttributes();
         displayEditableAttributes(attributes);
     }, 5000);
 }
