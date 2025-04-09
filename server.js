@@ -1,110 +1,3 @@
-// const express = require('express');
-// const multer = require('multer');
-// const path = require('path');
-// const fs = require('fs'); // Importing the fs module to handle file operations
-
-// const app = express();
-// const PORT = 3000; // Change this to any port you prefer
-
-// // Middleware to serve static files (CSS, JS)
-// app.use(express.static(path.join(__dirname)));
-// app.use(express.json()); // Middleware to parse JSON body from requests
-
-// // Set up storage for uploaded images
-// const storage = multer.diskStorage({
-//     destination: (req, file, cb) => {
-//         cb(null, path.join(__dirname, 'images')); // Ensure this path is correct
-//     },
-//     filename: (req, file, cb) => {
-//         cb(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname)); // Create unique filename
-//     }
-// });
-
-// const upload = multer({ storage: storage });
-
-// // // Endpoint for uploading images
-// // app.post('/save_image', upload.single('image'), (req, res) => {
-// //     if (req.file) {
-// //         res.json({
-// //             status: 'success',
-// //             message: 'Image uploaded successfully',
-// //             file: req.file.path
-// //         });
-// //     } else {
-// //         res.status(400).json({ status: 'error', message: 'Image upload failed' });
-// //     }
-// // });
-// // New endpoint for saving images
-// app.post('/save_image', (req, res) => {
-//     const imageData = req.body;
-
-//     const filePath = path.join(__dirname, 'savedImages.json');
-
-//     fs.readFile(filePath, 'utf8', (err, data) => {
-//         let savedImages = [];
-//         if (!err && data) {
-//             savedImages = JSON.parse(data); 
-//         }
-//         savedImages.push(imageData); 
-        
-//         fs.writeFile(filePath, JSON.stringify(savedImages, null, 2), (err) => {
-//             if (err) {
-//                 return res.status(500).json({ status: 'error', message: 'Could not save image data' });
-//             }
-//             res.json({ status: 'success', message: 'Image saved successfully' });
-//         });
-//     });
-// });
-
-// // Endpoint for saving outfits
-// app.post('/save_outfit', (req, res) => {
-//     const outfitData = req.body;
-
-//     // Ensure outfits.json file exists to store outfit data
-//     const filePath = path.join(__dirname, 'outfits.json');
-
-//     // Read existing outfits
-//     fs.readFile(filePath, 'utf8', (err, data) => {
-//         let outfits = [];
-//         if (!err) { // If reading the file was successful
-//             outfits = JSON.parse(data); // Parse the existing data
-//         }
-//         outfits.push(outfitData); // Add the new outfit
-        
-//         // Write updated outfits back to the file
-//         fs.writeFile(filePath, JSON.stringify(outfits, null, 2), (err) => {
-//             if (err) {
-//                 return res.status(500).json({ status: 'error', message: 'Could not save outfit data' });
-//             }
-
-//             res.json({ status: 'success', message: 'Outfit saved successfully' });
-//         });
-//     });
-// });
-
-// // Endpoint for getting outfits
-// app.get('/get_outfits', (req, res) => {
-//     const filePath = path.join(__dirname, 'outfits.json');
-
-//     fs.readFile(filePath, 'utf8', (err, data) => {
-//         if (err) {
-//             return res.status(500).json({ status: 'error', message: 'Could not read outfit data' });
-//         }
-        
-//         const outfits = JSON.parse(data); // Parse and return the saved outfits
-//         res.json(outfits);
-//     });
-// });
-
-// // Define a route for the root URL
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, 'index.html')); // Serve the home page
-// });
-
-// // Start the server
-// app.listen(PORT, () => {
-//     console.log(`Server running at http://localhost:${PORT}`);
-// });
 
 
 const express = require('express');
@@ -113,7 +6,7 @@ const path = require('path');
 const fs = require('fs'); // Importing the fs module to handle file operations
 
 const app = express();
-const PORT = 3000; // Change this to any port you prefer
+const PORT = 5000; // Change this to any port you prefer
 
 // Middleware to serve static files (CSS, JS)
 app.use(express.static(path.join(__dirname)));
@@ -137,65 +30,6 @@ const upload = multer({
     limits: { fileSize: 100 * 1024 * 1024 } // Set limit to 50MB
 });
 
-// // Endpoint for uploading images
-// app.post('/save_image', upload.single('image'), (req, res) => {
-//     if (req.file) {
-//         res.json({
-//             status: 'success',
-//             message: 'Image uploaded successfully',
-//             file: req.file.path
-//         });
-//     } else {
-//         res.status(400).json({ status: 'error', message: 'Image upload failed' });
-//     }
-// });
-// Inside server.js
-
-
-// // New endpoint for saving images and attributes
-// app.post('/save_image', (req, res) => {
-//     const imageData = req.body;
-
-//     // Path to save the image file
-//     const fileName = `${Date.now()}.jpg`;
-//     const imagePath = path.join(__dirname, 'images', fileName);
-
-//     // Get the base64 string from the image data
-//     const base64Image = imageData.src.split(',')[1];
-
-//     // Write the saved image to the filesystem
-//     fs.writeFile(imagePath, base64Image, { encoding: 'base64' }, (err) => {
-//         if (err) {
-//             return res.status(500).json({ status: 'error', message: 'Could not save the image file' });
-//         }
-
-//         // Prepare the data for saving in savedImages.json
-//         const dataToSave = {
-//             src: imagePath, // Store the file path instead of Base64
-//             attributes: imageData.attributes
-//         };
-
-//         // Read and parse savedImages.json
-//         const jsonFilePath = path.join(__dirname, 'savedImages.json');
-
-//         fs.readFile(jsonFilePath, 'utf8', (err, data) => {
-//             let savedImages = [];
-//             if (!err && data) {
-//                 savedImages = JSON.parse(data); 
-//             }
-
-//             savedImages.push(dataToSave); 
-
-//             // Write back to the savedImages.json
-//             fs.writeFile(jsonFilePath, JSON.stringify(savedImages, null, 2), (err) => {
-//                 if (err) {
-//                     return res.status(500).json({ status: 'error', message: 'Could not save image data' });
-//                 }
-//                 res.json({ status: 'success', message: 'Image saved successfully' });
-//             });
-//         });
-//     });
-// });
 
 // New endpoint for saving images and attributes
 app.post('/save_image', (req, res) => {

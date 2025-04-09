@@ -1,88 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Saved Images</title>
-</head>
-<body>
-    <div class="container">
-        <button onclick="location.href='index.html'" class="back-button">Back to Home</button>
-        <h1>Saved Images</h1>
-        <div id="saved-images-container"></div>
-    </div>
-    <script>
-        const savedImages = JSON.parse(localStorage.getItem('savedImages')) || [];
-        const container = document.getElementById('saved-images-container');
-
-        function renderImages() {
-            container.innerHTML = ''; // Clear the container before rendering
-            savedImages.forEach((entry, index) => {
-                const imgContainer = document.createElement('div');
-                const img = document.createElement('img');
-                img.src = entry.src || ''; // Default to an empty string if `entry.src` is undefined
-                img.alt = 'Saved Image';
-                img.style.width = '200px';
-                imgContainer.appendChild(img);
-
-                const button = document.createElement('button');
-                button.innerText = 'Clothing Attributes';
-                button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer);
-                imgContainer.appendChild(button);
-
-                // Create delete button
-                const deleteButton = document.createElement('button');
-                deleteButton.innerText = 'Delete';
-                deleteButton.onclick = () => confirmDeletion(index);
-                imgContainer.appendChild(deleteButton);
-
-                container.appendChild(imgContainer);
-            });
-        }
-
-        function confirmDeletion(index) {
-            if (confirm("Are you sure you want to permanently delete this image?")) {
-                deleteImage(index);
-            }
-        }
-
-        function deleteImage(index) {
-            savedImages.splice(index, 1); // Remove the image from the array
-            localStorage.setItem('savedImages', JSON.stringify(savedImages)); // Update local storage
-            renderImages(); // Re-render the images
-        }
-
-        function displayAttributes(attributes, imgContainer) {
-            let attributesBox = imgContainer.querySelector('.attributes-box');
-            if (!attributesBox) {
-                attributesBox = document.createElement('div');
-                attributesBox.classList.add('attributes-box');
-
-                if (attributes) {
-                    attributesBox.innerHTML = `
-                        <strong>Attributes:</strong><br>
-                        gender: ${attributes.gender || 'N/A'}<br>
-                        subcategory: ${attributes.subcategory || 'N/A'}<br>
-                        articleType: ${attributes.articleType || 'N/A'}<br>
-                        baseColour: ${attributes.baseColour || 'N/A'}<br>
-                        season: ${attributes.season || 'N/A'}<br>
-                        usage: ${attributes.usage || 'N/A'}
-                    `;
-                }
-
-                imgContainer.appendChild(attributesBox);
-            } else {
-                attributesBox.style.display = attributesBox.style.display === 'none' ? 'block' : 'none';
-            }
-        }
-
-        // Initial rendering of images
-        renderImages();
-    </script>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Saved Images</title>
+    <style>
+        .attributes-box table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .attributes-box th, .attributes-box td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        .attributes-box th {
+            background-color: #f0f0f0;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -99,7 +29,7 @@
     </div>
     <script>
         async function fetchSavedImages() {
-            const response = await fetch('/get_saved_images');
+            const response = await fetch('http://localhost:5000/get_saved_images');
             const savedImages = await response.json();
             const container = document.getElementById('saved-images-container');
 
@@ -117,8 +47,7 @@
                 button.onclick = () => displayAttributes(entry.attributes || {}, imgContainer);
                 imgContainer.appendChild(button);
 
-                // Create delete button functionality if required here.
-                        // Create delete button
+                // Create delete button
                 const deleteButton = document.createElement('button');
                 deleteButton.innerText = 'Delete';
                 deleteButton.onclick = () => confirmDeletion(entry, imgContainer);
@@ -136,13 +65,21 @@
 
                 if (attributes) {
                     attributesBox.innerHTML = `
-                        <strong>Attributes:</strong><br>
-                        gender: ${attributes.gender || 'N/A'}<br>
-                        subcategory: ${attributes.subcategory || 'N/A'}<br>
-                        articleType: ${attributes.articleType || 'N/A'}<br>
-                        baseColour: ${attributes.baseColour || 'N/A'}<br>
-                        season: ${attributes.season || 'N/A'}<br>
-                        usage: ${attributes.usage || 'N/A'}
+                        <strong>Attributes:</strong>
+                        <table>
+                            <tr><th>Attribute</th><th>Value</th></tr>
+                            <tr><td>Gender</td><td>${attributes.gender || 'N/A'}</td></tr>
+                            <tr><td>Master Category</td><td>${attributes.masterCategory || 'N/A'}</td></tr>
+                            <tr><td>Subcategory</td><td>${attributes.sub || 'N/A'}</td></tr>
+                            <tr><td>Article Type</td><td>${attributes.articleType || 'N/A'}</td></tr>
+                            <tr><td>Base Colour</td><td>${attributes.baseColour || 'N/A'}</td></tr>
+                            <tr><td>Season</td><td>${attributes.season || 'N/A'}</td></tr>
+                            <tr><td>Usage</td><td>${attributes.usage || 'N/A'}</td></tr>
+                        </table>
+                        <div style="margin-top: 10px;">
+                            <strong>Description:</strong>
+                            <p>${attributes.productDisplayName || 'No description available'}</p>
+                        </div>
                     `;
                 }
 
@@ -161,7 +98,7 @@
 
         async function deleteImage(image) {
             try {
-                const response = await fetch('/delete_image', {
+                const response = await fetch('http://localhost:5000/delete_image', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(image)

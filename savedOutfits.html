@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Saved Outfits</title>
+    <style>
+        .outfit-container {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .outfit-container img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        .outfit-description {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .outfit-description p {
+            margin: 5px 0;
+        }
+        button {
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -14,34 +38,82 @@
     </div>
     <script>
         async function fetchSavedOutfits() {
-            const response = await fetch('/get_outfits');
-            const outfits = await response.json();
-            const container = document.getElementById('saved-outfits-container');
+            try {
+                const response = await fetch('http://localhost:3000/get_saved_outfits');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch saved outfits');
+                }
+                const savedOutfits = await response.json();
+                const container = document.getElementById('saved-outfits-container');
 
-            outfits.forEach(outfit => {
-                const imgContainer = document.createElement('div');
-                const img = document.createElement('img');
-                img.src = outfit.image; // Adjust this based on how you store image paths
-                img.style.width = '200px';
+                container.innerHTML = ''; // Clear the container before rendering
+                savedOutfits.forEach((entry, index) => {
+                    const outfitContainer = document.createElement('div');
+                    outfitContainer.classList.add('outfit-container');
 
-                const attributesBox = document.createElement('div');
-                attributesBox.innerHTML = `
-                    
-                `;
-                // taking it out of the attrbutes box, if you want it back then cut and paste under line 28
-                /*<strong>Top Attributes:</strong><br>
-                    Gender: ${outfit.attributes.gender || 'N/A'}<br>
-                    Subcategory: ${outfit.attributes.subcategory || 'N/A'}<br>
-                    Article Type: ${outfit.attributes.articleType || 'N/A'}<br>
-                    Base Colour: ${outfit.attributes.baseColour || 'N/A'}<br>
-                    Season: ${outfit.attributes.season || 'N/A'}<br>
-                    Usage: ${outfit.attributes.usage || 'N/A'}<br>*/
-                imgContainer.appendChild(img);
-                imgContainer.appendChild(attributesBox);
-                container.appendChild(imgContainer);
-            });
+                    // Display the image
+                    const img = document.createElement('img');
+                    img.src = entry.image || ''; // Use the image path from outfits.json
+                    img.alt = 'Saved Outfit';
+                    img.onerror = () => {
+                        console.error('Failed to load image:', entry.image);
+                        img.alt = 'Image not found';
+                    };
+                    outfitContainer.appendChild(img);
+
+                    // Display the outfit description
+                    const descriptionDiv = document.createElement('div');
+                    descriptionDiv.classList.add('outfit-description');
+                    descriptionDiv.innerHTML = `
+                        <strong>Outfit Description:</strong>
+                        <p>${entry.attributes?.description || 'No description available'}</p>
+                    `;
+                    outfitContainer.appendChild(descriptionDiv);
+
+                    // Create delete button
+                    const deleteButton = document.createElement('button');
+                    deleteButton.innerText = 'Delete';
+                    deleteButton.onclick = () => confirmDeletion(entry, outfitContainer);
+                    outfitContainer.appendChild(deleteButton);
+
+                    container.appendChild(outfitContainer);
+                });
+            } catch (error) {
+                console.error('Error fetching saved outfits:', error);
+                alert('An error occurred while fetching saved outfits.');
+            }
         }
 
+        async function confirmDeletion(outfit, outfitContainer) {
+            if (confirm("Are you sure you want to permanently delete this outfit?")) {
+                await deleteOutfit(outfit);
+                outfitContainer.remove(); // Remove the outfit container from the UI
+            }
+        }
+
+        async function deleteOutfit(outfit) {
+            try {
+                const response = await fetch('http://localhost:3000/delete_outfit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ image: outfit.image })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to delete outfit');
+                }
+
+                const result = await response.json();
+                alert(result.message); // Notify user of success
+
+                fetchSavedOutfits(); // Re-fetch the updated list of saved outfits
+            } catch (error) {
+                console.error('Error deleting outfit:', error);
+                alert('An error occurred while trying to delete the outfit.');
+            }
+        }
+
+        // Initial rendering of outfits
         document.addEventListener('DOMContentLoaded', fetchSavedOutfits);
     </script>
 </body>

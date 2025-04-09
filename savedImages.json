@@ -1,49 +1,5 @@
 [
   {
-    "src": "/images/1743641364605.jpg",
-    "attributes": {
-      "gender": "Men",
-      "subcategory": "Topwear",
-      "articleType": "Shirts",
-      "baseColour": "Navy Blue",
-      "season": "Fall",
-      "usage": "Casual"
-    }
-  },
-  {
-    "src": "/images/1743649373335.jpg",
-    "attributes": {
-      "gender": "Men",
-      "subcategory": "Topwear",
-      "articleType": "Shirts",
-      "baseColour": "Navy Blue",
-      "season": "Fall",
-      "usage": "Casual"
-    }
-  },
-  {
-    "src": "/images/1743649841143.jpg",
-    "attributes": {
-      "gender": "Girls",
-      "subcategory": "Topwear",
-      "articleType": "Shirts",
-      "baseColour": "Navy Blue",
-      "season": "Fall",
-      "usage": "Casual"
-    }
-  },
-  {
-    "src": "/images/1743651009850.jpg",
-    "attributes": {
-      "gender": "Men",
-      "subcategory": "Topwear",
-      "articleType": "Shirts",
-      "baseColour": "Navy Blue",
-      "season": "Fall",
-      "usage": "Casual"
-    }
-  },
-  {
     "src": "/images/1743653708421.jpg",
     "attributes": {
       "gender": "Men",
@@ -55,36 +11,42 @@
     }
   },
   {
-    "src": "/images/1743655174648.jpg",
+    "src": "/images/1744189827662.jpg",
     "attributes": {
-      "gender": "Men",
-      "subcategory": "Topwear",
+      "gender": "Unknown",
+      "masterCategory": "Apparel",
+      "sub": "Shirt/Jeans/Dress/etc.",
+      "articleType": "Shirt",
+      "baseColour": "Black",
+      "season": "Spring/Summer",
+      "usage": "Casual",
+      "productDisplayName": "The woman in the image is wearing a black shirt and glasses. She is also wearing a white shirt underneath her black shirt."
+    }
+  },
+  {
+    "src": "/images/1744198250174.jpg",
+    "attributes": {
+      "gender": "Women",
+      "masterCategory": "Apparel",
+      "sub": "Topwear",
       "articleType": "Shirts",
-      "baseColour": "Navy Blue",
+      "baseColour": "Blue",
       "season": "Fall",
-      "usage": "Casual"
+      "usage": "Casual",
+      "productDisplayName": "The woman in the image is wearing a blue sweatshirt, which is a casual and comfortable choice of clothing. She is also holding a cell phone in her hand, possibly taking a picture or checking her messages."
     }
   },
   {
-    "src": "/images/1743669680620.jpg",
+    "src": "/images/1744198478760.jpg",
     "attributes": {
-      "gender": "N/A",
-      "subcategory": "N/A",
-      "articleType": "N/A",
-      "baseColour": "N/A",
-      "season": "N/A",
-      "usage": "N/A"
-    }
-  },
-  {
-    "src": "/images/1743676628740.jpg",
-    "attributes": {
-      "gender": "N/A",
-      "subcategory": "N/A",
-      "articleType": "N/A",
-      "baseColour": "N/A",
-      "season": "N/A",
-      "usage": "N/A"
+      "gender": "Women",
+      "masterCategory": "Apparel",
+      "sub": "Topwear",
+      "articleType": "Shirts",
+      "baseColour": "Grey",
+      "season": "Fall",
+      "usage": "Casual",
+      "productDisplayName": "In the image, there are two women wearing glasses. One woman is wearing a black jacket, while the other woman is wearing a gray jacket. Both women are holding their arms up in the air, possibly celebrating or expressing excitement. The scene takes place in a room with a dining table visible in the background."
     }
   }
 ]
